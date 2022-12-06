@@ -4,7 +4,4 @@ theme:
   name: null
   custom_dir: mkdocs_docskimmer
 
-piwik:
-  flow: 6a44e938-aefe-4064-93ea-b073b3bb53be
-  lumen: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
-  rsr: 88b17e1a-6831-4ec5-91b8-d14c0671a535
+piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
