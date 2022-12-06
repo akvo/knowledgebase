@@ -1,4 +1,5 @@
 site_name: Akvo Knowledgebase
+repo_url: https://github.com/akvo/knowledgebase
 theme:
   name: null
   custom_dir: mkdocs_docskimmer
