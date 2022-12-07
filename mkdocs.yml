@@ -5,3 +5,13 @@ theme:
   custom_dir: mkdocs_docskimmer
 
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
+
+i18n:
+  - name: French
+    icon: 🇫🇷
+    code: fr-FR
+    code2: fr
+  - name: Spanish
+    icon: 🇪🇸
+    code: es-ES
+    code2: es

@@ -26,6 +26,11 @@ main li:before{color:#248e54}
 .header-main__link:hover,.header-main__link:focus { color:#008300;outline:3px dotted #ff8000}
 .header-main__link:active { color:#962ed2;outline:none; }
 
+.language-container {
+  display: flex;
+  justify-content: center;
+}
+
 hr{border:0;border-bottom:1px solid #085f5f}
 
 .maincontent__link{border-top:1px solid #085f5f}
