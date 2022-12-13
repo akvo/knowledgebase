@@ -1,8 +1,13 @@
 site_name: Akvo Knowledgebase
 repo_url: https://github.com/akvo/knowledgebase
-theme:
-  name: null
-  custom_dir: mkdocs_docskimmer
+
+plugins:
+  - search
+  - mkdocs-video
+
+# theme:
+#   name: null
+#   custom_dir: mkdocs_docskimmer
 
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
 
@@ -15,3 +20,55 @@ i18n:
     icon: 🇪🇸
     code: es-ES
     code2: es
+
+nav:
+  - HOME: 'index.md'
+  - 'RSR':
+    - 'What is RSR?': 'rsr/index.md'
+    - 'Programs': 'rsr/program_vs_project.md'
+    - 'Accessing RSR': 'rsr/access.md'
+    - 'Project editor': 'rsr/project_editor.md'
+    - 'Results framework': 'rsr/results_framework.md'
+    - 'M&E Indicator Updates': 'rsr/indicator_updates.md'
+    - 'Enumerators': 'rsr/enumerators.md'
+    - 'User management': 'rsr/user_management.md'
+    - 'Standard Reporting': 'rsr/standard_reporting.md'
+    - 'IATI Reporting': 'rsr/iati_reporting.md'
+    - 'Quickstart Guides': 'rsr/guides.md'
+    - 'APIs': 'rsr/apis.md'
+    - 'FAQs': 'rsr/faqs.md'
+  - 'FLOW':
+    - 'What is Akvo FLOW?': 'flow/index.md'
+    - 'Online Workspace': 'flow/workspace.md'
+    - 'Surveys': 'flow/surveys.md'
+    - 'Forms': 'flow/forms.md'
+    - 'Question Groups': 'flow/groups.md'
+    - 'Questions': 'flow/questions.md'
+    - 'Devices': 'flow/devices.md'
+    - 'Data': 'flow/data.md'
+    - 'FLOW App': 'flow/app.md'
+    - 'Data collection': 'flow/collection.md'
+    - 'Data monitoring': 'flow/monitoring.md'
+    - 'Data reporting': 'flow/reporting.md'
+    - 'Caddisfly': 'flow/caddisfly.md'
+    - 'Quickstart Guides': 'flow/guides.md'
+    - 'APIs': 'flow/apis.md'
+    - 'FAQs': 'flow/faqs.md'
+  - 'LUMEN': 
+    - 'What is Akvo Lumen?': 'lumen/index.md'
+    - 'Connect': 'lumen/connect.md'
+    - 'Data types and groups': 'lumen/types.md'
+    - 'Data Transformations': 'lumen/transform.md'
+    - 'Column Functions': 'lumen/functions.md'
+    - 'Merge Datasets': 'lumen/merge.md'
+    - 'Visualization Types': 'lumen/visualize.md'
+    - 'Maps': 'lumen/maps.md'
+    - 'Charts': 'lumen/charts.md'
+    - 'Pivot Tables': 'lumen/tables.md'
+    - 'Dashboards': 'lumen/dashboards.md'
+    - 'Share': 'lumen/share.md'
+    - 'Working with FLOW data': 'lumen/flow_data.md'
+    - 'User management': 'lumen/user_management.md'
+    - 'FAQs': 'lumen/faqs.md'
+  - CONTACTS: 'contact.md'
+
