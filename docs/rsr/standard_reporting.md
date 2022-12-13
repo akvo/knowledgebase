@@ -1,7 +1,7 @@
-When you are on your project page, you will find the ‘Reports’ tab. On this page you can select pre-defined reporting templates. These reports export indicator results and project updates data about the project.
+When you are on your project page, you will find the **‘Reports’** tab. On this page you can select pre-defined reporting templates. These reports export indicator results and project updates data about the project.
 
 ## Kick-start
-The ‘Kick-start’ report is designed to allow you to have a simple, semi-custom report easily accessible when that time comes for you to submit an annual project report to your donor or for your team’s next planning meeting. The date-picker feature means that you can generate the report for specific reporting periods.
+The **‘Kick-start’** report is designed to allow you to have a simple, semi-custom report easily accessible when that time comes for you to submit an annual project report to your donor or for your team’s next planning meeting. The date-picker feature means that you can generate the report for specific reporting periods.
 
 It includes all of the essential overview information of your project that is contained in Project Editor, sections 1 and 8 for example. Depending on which of the core RSR features you’re utilising for the project – i.e. Results Framework and Project Updates – data captured with each of these features is incorporated in the report. 
 
@@ -10,21 +10,21 @@ For those projects using the RSR Results Framework, the report includes an easy-
 Your framework is placed in a simple log frame as appendix for an easy overview. This report can be exported by all RSR roles.
 
 ## Projects updates table
-The ‘Projects updates table’ provides a view of your project's updates in a table.
+The **‘Projects updates table’** provides a view of your project's updates in a table.
 The date-picker feature means that you can generate the report for specific reporting periods. The reports is downloadable as an excel file.
 
 After clicking the Download report button, your report will be downloaded. This report can be exported by all RSR roles. It includes the update text and links to any files attached to the project update.
 
 
 ## Results and indicators overview
-The ‘Results and indicators overview’ report gives an overview of the status of your project's results and indicators.
+The **‘Results and indicators overview’** report gives an overview of the status of your project's results and indicators.
 The date-picker feature means that you can generate the report for specific reporting periods.
 
 After clicking the Download report button, your report will be downloaded. This report can be exported by all RSR roles.
 
 
 ## Results and indicators overview
-The ‘Results and indicators overview’ report provides a view of your project's results and indicators data in a table.
+The **‘Results and indicators overview’** report provides a view of your project's results and indicators data in a table.
 The date-picker feature means that you can generate the report for specific reporting periods.
 
 After clicking the Download report button, your report will be downloaded. This report can be exported by all RSR roles.

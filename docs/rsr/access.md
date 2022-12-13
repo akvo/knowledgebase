@@ -1,5 +1,5 @@
 ## Registering as a user on RSR
-Registering as a user for RSR is easy, simply go to http://rsr.akvo.org/en/register/ and complete the details as shown below:
+Registering as a user for RSR is easy, simply go to the [registration page](http://rsr.akvo.org/en/register/) and complete the details as shown below:
 
 After filling in the correct information, you will automatically see a confirmation screen. The next step is to confirm your e-mail address via the e-mail we sent you.
 
@@ -32,7 +32,7 @@ Provide name and password to activate account. Remember to follow the password g
 Once you complete the process successfully, you should then receive a confirmation email. The email also contains a link to RSR.
 
 
-To log in go to https://rsr.akvo.org and click the ‘Sign in’ button (3). 
+To log in go to [https://rsr.akvo.org](https://rsr.akvo.org) and click the ‘Sign in’ button (3). 
 
 
 Provide your login credentials that you selected and click on “Login”(4) to proceed. If you’ve forgottend your password, follow the ‘Forgot my password’ link.
