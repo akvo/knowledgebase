@@ -55,7 +55,7 @@ With this user account you can log in to My RSR. In My projects you manage your 
 
 The progress bar shows you when your project is ready to be published. When you fill in the mandatory fields, indicated by a red asterisk, you will see that the progress bar increases. When the bar is green, it means all mandatory fields are filled in and your project is ready to be published. To be able to publish a project to RSR, a set of mandatory fields always need to be completed, regardless which project bar you choose.
 
-More detailed information can be found [here]((project_editor.md)).
+More detailed information can be found [here](project_editor.md).
 
 
 ## Why does my photo upload very slow / does not come through
@@ -66,15 +66,21 @@ This is often caused by the photo being too big in size. The recommended maximum
 ## How do I add an organisation?
 You need to login to MyRSR and add or edit a project. When you are selecting partners who are involved in the project, you will see suggestions after you start typing.
 
+![contributes to field](media/add_partner_1.png)
+
 If the organisation you want to add does not show up in the list you will be given the possibility to add this organisation.
 
-After clicking add new organisation you will see a screen where you can add the new organisation. Please always make sure you are not creating a duplicate.
+![contributes to field](media/add_partner_2.png)
+
+After clicking **add new organisation** you will see a screen where you can add the new organisation. Please always make sure you are not creating a duplicate.
+
+![contributes to field](media/add_partner_3.png)
 
 ## Changing information for an Organisation page
-When you want to change information on your Akvo RSR organisation page, please contact our support team with the following information:
+When you want to change information on your Akvo RSR organisation page, please contact our [support team](../contact.md) with the following information:
 
-URL of the page that you would like to change 
-The new text
+- URL of the page that you would like to change 
+- The new text
 
 
 ## How do I show my projects on my website?

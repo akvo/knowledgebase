@@ -1,24 +1,25 @@
 The results framework helps your organisation keep track of your project's results, indicators, indicator periods and associated data belonging to a project. 
 
 To add a results framework for your project, you can: 
-1) create a results framework from scratch;
-2) copy a results framework from another project in your organisation;
-3) automatically inherit a results framework from the core project of the program.
+
+1. create a results framework from scratch;
+2. copy a results framework from another project in your organisation;
+3. automatically inherit a results framework from the core project of the program.
    
 ## Create results framework
-To create a new results framework, find the project you wish to add a results framework for by typing the name of the project or the project ID number in the search bar of your 'My Projects' page.
+To create a new results framework, find the project you wish to add a results framework for by typing the name of the project or the project ID number in the search bar of your **'My Projects'** page.
 
-From section 5 - Results and Indicators of the project, begin by clicking '+ Add result' (1) and start building your project's results framework.
+From section 5 - Results and Indicators of the project, begin by clicking *'+ Add result'* (1) and start building your project's results framework.
 
 ## Copying a results framework from another project
-To copy the results framework of an existing project from within the organisation, From 'section 5. Results and indicators' in the Project Editor, when creating your new project, simply enter the appropriate project ID# (1) of an existing RSR project of your organisation. Then click 'Copy Results' (2). After refreshing the page, the complete results framework from the selected project is populated. 
+To copy the results framework of an existing project from within the organisation, From **'section 5. Results and indicators'** in the Project Editor, when creating your new project, simply enter the appropriate project ID# (1) of an existing RSR project of your organisation. Then click 'Copy Results' (2). After refreshing the page, the complete results framework from the selected project is populated. 
 
 The reporting periods of the original results framework are also copied. Thus, if these periods do not apply exactly to your new project, you will manually need to modify these accordingly (5).
 
 
 ## Automatically inherit a results framework from the core project of the program.
 To inherit the core results framework from an existing program, from the Hierarchy (1) tab of the Program Overview feature. 
-Simply click 'New Contributing Project' (2) and the new project will have automatically inherited the program's results framework. Once a results framework has been inherited, you can delete results and/or indicators that are not relevant for the individual project. 
+Simply click **'New Contributing Project'** (2) and the new project will have automatically inherited the program's results framework. Once a results framework has been inherited, you can delete results and/or indicators that are not relevant for the individual project. 
 
 
 ## Setting up thematic labels for your qualitative indicators
@@ -40,7 +41,7 @@ ________________________________________________________________________________
 
 Adding disaggregations to quantitative indicators is done via the Results and Indicators section of Project Editor and can be done at the same time that you're adding new indicators to your results framework. 
 
-After you've added your new indicators, scroll down a bit and simply click '+ Add disaggregation'. 
+After you've added your new indicators, scroll down a bit and simply click *'+ Add disaggregation'*. 
 
 You can add multiple disaggregation categories (e.g. age and gender) to an indicator depending the level of disaggregation required to accurately measure an indicator. You can also add multiple labels (e.g. 1-8yrs, 9yrs - 17yrs, 18 - 24yrs) to a disaggregation. 
 
