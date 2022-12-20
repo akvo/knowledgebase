@@ -1,15 +1,20 @@
 ## Unlocking reporting periods
+You can review the number of results and indicators you have already added - per result type - by glancing at the Results Overview tab. If you want to start collecting indicator updates, you first need to make sure that you unlock the reporting period.
 
-## Bulk locking and unlocking your indicators (M&E manager)
-In addition to unlocking and locking indicators individually, i.e. one by one, you can also unlock and lock your indicators in bulk. Using the ‘Filter Periods’ dropdown select the appropriate reporting period. 
+![Unlocking reporting periods](media/results_overview_tab.png)
 
+From ‘All periods’ select the appropriate reporting period for which you want unlock results. 
 
-Once displayed, all indicators for that reporting period will be ‘checked’ by default, from here you click either ‘Unlock selected’ or ‘Lock selected. This is very helpful for those projects working with results frameworks that contain many indicators. 
+![Unlocking reporting periods](media/results_overview_tab_1.png)
+
+The default setting checks all results, so if you want to unlock the all indicators for that reporting period, simply click **‘Unlock’**. This is very helpful for those projects working with results frameworks that contain many indicators.
+
+![Unlocking reporting periods](media/results_overview_tab_2.png)
+
+Once the reporting period has been unlocked, the project team can begin entering indicator results data e.g. we have 2 unlocked indicators as highlighted below 
 
 
 ## Entering indicator results data
-
-## Assigning indicators to Project Officers
 
 ## Review indicator updates submitted by Project Officers
 Pending approval

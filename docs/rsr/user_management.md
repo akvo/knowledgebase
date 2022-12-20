@@ -1,41 +1,41 @@
 ## Request to join an organisation
-Registering as a user on RSR
-Log into http://rsr.akvo.org/en/register/ and complete the details as shown below
 
+### Registering as a user on RSR
+Log into [http://rsr.akvo.org/en/register/](http://rsr.akvo.org/en/register/) and complete the details as shown below
 
+![Request to join an organisation](media/registration.png)
 
 After filling in the correct information, you will automatically see a confirmation screen. The next step is to confirm your e-mail adres via the e-mail we sent you.
 
-Activate e-mail
+### Activate e-mail
 By clicking on the link in the e-mail you will activate your account. If you still have not received an e-mail after 5 minutes please check your spam folder.
 
 Requesting to join an organisation
 After the initial registration is completed as shown above, the new user needs to select the organisation it is part of. This will enable the user to add view the projects of the specific organisation (s) and also add RSR Updates to the same The steps are shown below.
 
-Go to connect with your employer in the my organisation section
-Type the name of your organisation (s) and Country. As several organisations are added to the RSR database already, the names will be autocompleted
-Press request to join
-Final
+1. Go to connect with your employer in the my organisation section
+2. Type the name of your organisation (s) and Country. As several organisations are added to the RSR database already, the names will be autocompleted
+3. Press request to join
+
+### Final
 Your organisation user manager will receive a notification regarding your request to join. After approving your request you will get an update on this via e-mail.
 ## Managing users
 When you enter the Users page you will see an overview of all users. From here you can:
 
-Approve users who want to join your organisation
-Edit the role of a specific user
-Remove a user from your organisation (this means this user will not be able to add updates to any of your projects in the future).
+1. Approve users who want to join your organisation
+2. Edit the role of a specific user
+3. Remove a user from your organisation (this means this user will not be able to add updates to any of your projects in the future).
 
 
+![Managing users](media/user_list.png)
 
 
-
-A person can have multiple roles. Akvo staff, user managers and admins can invite an existing user to add a new role. How you do this, can be read here.
+A person can have multiple roles. Akvo staff, user managers and admins can invite an existing user to add a new role. 
+<!-- How you do this, can be read here. -->
 ## Approving a user request
-Approving a user request
-If you are a user with the Admin or Support role for your organisation, you will see a Users link on the top, upper left side of the MyProjects interface.
+If you are a user with the Admin or Support role for your organisation, you will see a Users link on the hamburger menu on the top left of the screen.
 
-
-
-
+![Managing users](media/user_menu.png)
 
 
 The Admin will see the new user requests lined up and can approve requests based on different roles.
@@ -52,17 +52,16 @@ The following roles are supported within RSR. Adding RSR updates, adding or edit
 A person can have multiple roles. Akvo staff, user managers and admins can invite an existing user to add a new role. How you do this, can be read here.
 
 ## Invite new RSR users
-If you are a User Manager or Admin in RSR, you are able to invite new users to create an Akvo RSR account ánd to give one person multiple roles. If you log in to My RSR you will see a button in the top right corner of the page that will open a dialog to invite users.
+If you are a User Manager or Admin in RSR, you are able to invite new users to create an Akvo RSR account ánd to give one person multiple roles. If you log in to My RSR you will see a Users link on the hamburger menu on the top left of the screen.
 
 
-
-
+![Managing users](media/invite_user_1.png)
 
 
 You will now see a window in which you can invite a new user. You add an email address, assign the appropriate role for the user and select the organisation. Then you press the 'Send Invite' button.
 
 
-
+![Managing users](media/invite_user_2.png)
 
 
 

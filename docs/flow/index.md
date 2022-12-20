@@ -1,6 +1,6 @@
 ## Akvo Flow in a nutshell
 
-<!-- ![type:video](https://www.youtube.com/embed/LXb3EKWsInQ) -->
+![type:video](https://www.youtube.com/embed/rCL0IAbchd8)
 
 
 ## Staying up to date on Flow developments

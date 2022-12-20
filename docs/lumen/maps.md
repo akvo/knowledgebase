@@ -1,47 +1,50 @@
 ## Create a map
 Visualising data on a map can be a very powerful way to share insights. By being able to see outliers in the context of regions or even villages you can target you interventions better. If your dataset contains geolocation data, it’s very easy to create a custom map using Lumen. Furthermore, you can add more than one layer of data to a Lumen map, to compare more variables and tell a powerful story. With Lumen you can visualise points, geographic shapes and raster data on a map. 
 
+![Create a map](media/create_map.png)
 
 
-
-How to 
+### How to 
 To create a map, click on + Visualisation button at the top of your screen and select ‘Map’ from the selection of available visualisation types.  Now you’re in the map editor. To create a basic map with geopoints follow these steps: 
 
-Add a map layer and give it a name. If you do not want to map layer to show in the legend you can also leave it empty. 
-The base map is set to ‘Street’ by default but you may also choose ‘Satellite’ or ‘Terrain’ if that works better with your data. You will find the choice of base layer types underneath your data  layer. 
-Select the dataset you want to visualise. 
-By default, Geo point is selected as your layer type. You can also choose to visualise Geo shapes or Raster data.
-Pick the column containing geo points (here's a quick tutorial about how to generate geo points). Points will now appear on your map. 
-Set up the colour-coding system for the data points on your map. For instance, you can colour-code gender of respondents or the functionality of water points. Just select a column that should be used for colour-coding in the field ‘Color coding column’.    
-Under the Legend tab, you can decide whether you want to show the legend on the map. You can also define the order of the different values in the legend. By default they are sorted alphabetically. To define the order, click on 'Custom' and drag-n-drop the values based on the order you prefer. 
-Popup allows you to select what other data you want to show on the map when you click on a specific data point. Pop-up is a small window that opens up when you click on a data point on the map. This tab will show a list of columns from your source dataset. Click on those that you would like to have in the map. If you have a link to a photograph in your source dataset, you can add it to the pop-up window as well.
-The Theme tab allows to add some final styling touches to your map. Choose the size of map points and adjust colours for your colour-coded data points.   
-Each Lumen map can be shared online (link or embed code) or offline (.png or .pdf). If underlying data changed or is updated as new data points are added to the source dataset, your map will update automatically.
+1. Add a map layer and give it a name. If you do not want to map layer to show in the legend you can also leave it empty. 
+2. The base map is set to ‘Street’ by default but you may also choose ‘Satellite’ or ‘Terrain’ if that works better with your data. You will find the choice of base layer types underneath your data  layer. 
+3. Select the dataset you want to visualise. 
+4. By default, Geo point is selected as your layer type. You can also choose to visualise Geo shapes or Raster data.
+5. Pick the column containing geo points (here's a quick tutorial about how to generate geo points). Points will now appear on your map. 
+6. Set up the colour-coding system for the data points on your map. For instance, you can colour-code gender of respondents or the functionality of water points. Just select a column that should be used for colour-coding in the field ‘Color coding column’.    
+7. Under the Legend tab, you can decide whether you want to show the legend on the map. You can also define the order of the different values in the legend. By default they are sorted alphabetically. To define the order, click on 'Custom' and drag-n-drop the values based on the order you prefer. 
+8. Popup allows you to select what other data you want to show on the map when you click on a specific data point. Pop-up is a small window that opens up when you click on a data point on the map. This tab will show a list of columns from your source dataset. Click on those that you would like to have in the map. If you have a link to a photograph in your source dataset, you can add it to the pop-up window as well.
+9. The Theme tab allows to add some final styling touches to your map. Choose the size of map points and adjust colours for your colour-coded data points.   
+10. Each Lumen map can be shared online (link or embed code) or offline (.png or .pdf). If underlying data changed or is updated as new data points are added to the source dataset, your map will update automatically.
+
+![Create a map](media/create_map.gif)
 
 ## Create a map with a geoshape layer
 Geoshapes are great for showing different administrative structures, farmer plots, water pipelines, etc on the map. Showing how your data is distributed across the map enriches data analysis and helps target interventions locally. 
 
 There is data openly available on the internet on administrative areas for most of the countries, which you could use. To import these datasets to Lumen, check for tips here. You can also capture geographic shapes (as points, lines and areas) with Akvo Flow and analyse and visualise them in Lumen. 
 
+![Create a map with a geoshape layer](media/create_geoshape_layer.png)
 
 
-
-How to 
+### How to 
 Lumen map layers can be of different types: Geo Location, Geo Shape and Raster. If you want to display shapes on your map to represent, for instance, administrative areas, choose ‘Geo Shape’.  With Lumen you can add multiple layers to your map to tell a more rich story with your data. 
 
 To add a geoshape layer to your map follow these steps: 
 
-Add a new layer and give it a name. If you do not want to layer names to show in your map, you can also leave them empty. 
-Select the dataset with the geoshape column. 
-Pick the column holding your geoshape data. 
-You can label your admin shapes on the map by ticking the ‘Geo shape label’ option. This helps you to identify areas on the map more easily. Just select a column from the shape dataset that contains names you want to show with the shapes. Adding labels is not mandatory, so you can skip this if it’s not adding any value to your analysis.
-Go to the field ‘Styling dataset’. This can be your dataset holding the geoshape or another one you want to use to colour code the shapes. It’s important that the dataset has a geo location column, otherwise, it wouldn’t be possible to display it on the map. 
-Select a geopoint column from your styling dataset. 
-Pick it in the field ‘Styling indicator geopoint column’. Styling indicator represents a column that you wish to style (or to be more precise colour) your admin shapes by. 
-Now decide how you want the styling data to be aggregated. Since, every geoshape on your map can contain several values from different, say, water point locations, we want to aggregate them. Available aggregation options are: average, sum, min, max, count.
-You can also customise if you want the legend to show, if you want data to show in a pop up, or select a different colour.
-Each Lumen map can be shared online (link or embedded) or offline (.png or .pdf).
+1. Add a new layer and give it a name. If you do not want to layer names to show in your map, you can also leave them empty. 
+2. Select the dataset with the geoshape column. 
+3. Pick the column holding your geoshape data. 
+4. You can label your admin shapes on the map by ticking the ‘Geo shape label’ option. This helps you to identify areas on the map more easily. 5. Just select a column from the shape dataset that contains names you want to show with the shapes. Adding labels is not mandatory, so you can skip this if it’s not adding any value to your analysis.
+6. Go to the field ‘Styling dataset’. This can be your dataset holding the geoshape or another one you want to use to colour code the shapes. It’s important that the dataset has a geo location column, otherwise, it wouldn’t be possible to display it on the map. 
+7. Select a geopoint column from your styling dataset. 
+8. Pick it in the field ‘Styling indicator geopoint column’. Styling indicator represents a column that you wish to style (or to be more precise colour) your admin shapes by. 
+9. Now decide how you want the styling data to be aggregated. Since, every geoshape on your map can contain several values from different, say, water point locations, we want to aggregate them. Available aggregation options are: average, sum, min, max, count.
+10. You can also customise if you want the legend to show, if you want data to show in a pop up, or select a different colour.
+11. Each Lumen map can be shared online (link or embedded) or offline (.png or .pdf).
 
+![Create a map with a geoshape layer](media/create_geoshape_layer.gif)
 
 ## Create a map with a raster layer
 You may add raster image as one of the layers on a map. Read about how to upload raster data to your Lumen instance here.  
