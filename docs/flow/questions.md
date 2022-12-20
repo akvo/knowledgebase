@@ -2,60 +2,58 @@
 To create a new question select the question group you want it to be in and click Show Questions next to the question group. Click Add New Question or click Edit next to an existing question. Now you can see all the details of the question that you can customise to your needs. There are two settings important to each question: question text and question type.
 
 
+![Creating and editing questions and their settings](media/add_question.png)
 
 
-
-
-Question text 
+### Question text 
 The question text holds the question you want your respondent to answer. The question text can contain the maximum of 500 words. There is no limitation in which language you ask the question. 
 
 
 
-Question type 
+### Question type 
 In Flow we support a large variety of different question types to help you create a diverse survey. These are the question types available in the Flow system: Free text, Option (select one option or select many using check boxes), Cascade, Number, Geolocation, Photo, Video, Date, Barcode, Geographic shapes, Signature and Akvo Caddisfly, to add a water and soil quality test to your Flow survey. 
 
-For more details on our question types check this article.
+![Creating and editing questions and their settings](media/question_type.png)
 
+<!-- For more details on our question types check this article. -->
 
-Optional question settings 
+### Optional question settings 
 You can also adjust your question using the optional settings: question help tooltip, making the question mandatory or making the question dependent on the answer to a preceding question. 
 
-
-
-Question help tooltip 
+### Question help tooltip 
 Sometimes you want to share some instructions about a specific question, or explain it in a bit more detail. The survey author can enter hint or tip text that’s visible through an info icon next to the question on the device. The tooltip has the limit of 1500 characters. When creating the tooltip you can expand the text box using the right lower corner. 
 
+![Creating and editing questions and their settings](media/question_tooltip.png)
 
-
-
-Variable name 
+### Variable name 
 Each question lives in a separate column (or more depending on the question type) in your data export. The question text is saved in the header of the column. When analysing your Flow data it can be useful to change the header of your column and give it a shorter name. This is the variable name. When exporting your data choose the Data analysis export to export your variable name instead of question text as the column headers. Each variable name can only contain letters, numbers and a few special characters (a dash and an underscore). Furthermore the variable names for a question in a survey (in all forms of the survey) must be unique.
 
 
 
-Mandatory 
+### Mandatory 
 By making a question mandatory, on the device the user won’t be able to submit the form unless they have answered it and all other mandatory questions. These are marked with an asterisk in the Flow app.  
 
 
 
-Holds personal data
+### Holds personal data
 With this flag you mark that the data collected is personal. When exporting the data with the API you can then use this flag and decide not to show the data in your end solution.
 
 
 
-Dependent 
+### Dependent 
 Tick this box to make the current question dependent on the answer from any preceding option question in the same survey. On the device, the question will only show if the respondent has chosen the answer to the question. 
 
 To make your question dependent: 
 
-Tick the checkbox. 
-Select which question you want this one to depend on. Note that you can only make a question dependent on option questions that come before this question in your survey form. 
-Select the answer you want to question to depend on. You can select one or multiple answers. 
+1. Tick the checkbox. 
+2. Select which question you want this one to depend on. Note that you can only make a question dependent on option questions that come before this question in your survey form. 
+3. Select the answer you want to question to depend on. You can select one or multiple answers. 
 There is one more limitation to setting dependencies. You cannot make a question dependent on a question that is located in a repeated question group. 
 
 
-
 Make this question locked when copied (available upon request) 
+
+![Creating and editing questions and their settings](media/question_dependant.png)
 
 More and more we see that organisations are putting effort into understanding how their different projects contribute to their overall goals and impact. This has implications for how you design your surveys. For the organisational indicators, these questions need to be asked in a consistent way, with the same question definitions (the text, variable names, limitations, dependencies, etc) in order to be consistent on the organisational level. However, projects still need to have the flexibility to collect data they need as well.
 
@@ -66,40 +64,41 @@ Are you interested in using this feature? Contact us and we can discuss possibil
 ## Question types
 These are the question types available in the Flow system:
 
-Free text - shows the user a text box on the device to fill in the answer, with no specific format. Text can be letters, numbers and symbols, and appears in the data views and reports exactly as it was typed into the device.
+**Free text** - shows the user a text box on the device to fill in the answer, with no specific format. Text can be letters, numbers and symbols, and appears in the data views and reports exactly as it was typed into the device.
 
-Option - create a set of preset options for the device user to select from on the device when answering the question. Option questions can be single answer or multiple answers. The survey author can elect to allow ‘other’ responses, which on the device presents a free text field for entering any other response outside the preset options. Option questions will have frequency analysis performed on them in data analysis.
+**Option** - create a set of preset options for the device user to select from on the device when answering the question. Option questions can be single answer or multiple answers. The survey author can elect to allow ‘other’ responses, which on the device presents a free text field for entering any other response outside the preset options. Option questions will have frequency analysis performed on them in data analysis.
 
-Cascade - a cascade question uses a user-defined hierarchy of options in order to display multiple dropdowns on the device. Determining a location is a good example: in a first dropdown question you choose the region, and then in the next dropdown, you can choose from the districts in that region, and so on. The user selects a pre-created cascade from the ‘Choose cascade resource’ dropdown menu.
+**Cascade** - a cascade question uses a user-defined hierarchy of options in order to display multiple dropdowns on the device. Determining a location is a good example: in a first dropdown question you choose the region, and then in the next dropdown, you can choose from the districts in that region, and so on. The user selects a pre-created cascade from the ‘Choose cascade resource’ dropdown menu.
 
-Number - allows only numbers to be typed into the answer entry field on the device. Number questions will have basic statistical analysis performed on them in data analysis.
+**Number** - allows only numbers to be typed into the answer entry field on the device. Number questions will have basic statistical analysis performed on them in data analysis.
 
-Geolocation - uses the device’s GPS to automatically fill in latitude, longitude and elevation. Click the Check Geo Location button to fill in these questions on the device.
+**Geolocation** - uses the device’s GPS to automatically fill in latitude, longitude and elevation. Click the Check Geo Location button to fill in these questions on the device.
 
-Photo and Video - presents the option to take a photo or video as part of the survey. Click the Take Photo or Take Video buttons on the device to access the device camera.
+**Photo and Video** - presents the option to take a photo or video as part of the survey. Click the Take Photo or Take Video buttons on the device to access the device camera.
 
-Date - presents a date picker on the device for the device user to select a date.
+**Date** - presents a date picker on the device for the device user to select a date.
 
-Barcode - with the Barcode question you can scan a barcode or a QR code as part of your Flow form. Install a scanner app on your device and Flow will connect to it once you reach the question in the Flow app.
+**Barcode** - with the Barcode question you can scan a barcode or a QR code as part of your Flow form. Install a scanner app on your device and Flow will connect to it once you reach the question in the Flow app.
 
-Geographic shape - allows the user to define points, lines or areas on a map. This can for example be used to capture geographic features of interest such a group of water taps, walking paths, farmer plots, or protected woodland areas.
+**Geographic shape** - allows the user to define points, lines or areas on a map. This can for example be used to capture geographic features of interest such a group of water taps, walking paths, farmer plots, or protected woodland areas.
 
-Signature - with this question you can add a signature field to your form, which holds both the signature and the name of the signatory. For more information check the guide of how to use signatures of Akvo Flow
+**Signature** - with this question you can add a signature field to your form, which holds both the signature and the name of the signatory. For more information check the guide of how to use signatures of Akvo Flow
 
-Akvo Caddisfly - Akvo Caddisfly enables you to add a water quality test to your Flow survey. You can choose from a list of parameters that you want to measure. For more information check the guides on what Akvo Caddisfly is and how to use it as part of your Flow survey. 
+**Akvo Caddisfly** - Akvo Caddisfly enables you to add a water quality test to your Flow survey. You can choose from a list of parameters that you want to measure. For more information check the guides on what [Akvo Caddisfly](caddisfly.md) is and how to use it as part of your Flow survey. 
 
 Some question types also offer additional settings to fill out, which change the behaviour of the question on the device. These are explained in more detail for each individual question type. 
 
 ## Free text question
 Free text question types shows the user a text box on the device to fill in the answer, with no specific format. Text can be letters, numbers and symbols, and appears in the data views and reports exactly as it was typed into the device. There is no limitation to the size on answers for this question type.
 
-Free text question settings
+### Free text question settings
 
+![Free text question](media/settings_text_question.png)
 
-Use as data point name 
+### Use as data point name 
 Each datapoint you create on the Flow app is given a name. The name is determined by questions that have this option set. If multiple questions have this option set, the answers to those questions are combined in a single name, separated by a dash (‘-‘). In this way, you can give data points names that identify what you have surveyed, so they are easy to find back in the list of data points.
 
-Require double entry of answer in device 
+### Require double entry of answer in device 
 This can be used to force the user to type the answer to the question twice, which can be used as data verification. This can be useful for items such as telephone numbers, email addresses, or identification numbers, which are easy to type wrong.
 
 
@@ -108,47 +107,47 @@ Number question type allows only numbers to be typed into the answer entry field
 
 
 
-Number question settings
+### Number question settings
 For number questions, there are a few additional settings you can enable. All of these settings are optional.
 
 
-Use as data point name
+![Number question](media/settings_number_question.png)
+
+### Use as data point name
 Each datapoint you create on the Flow app is given a name. The name is determined by questions that have this option set. If multiple questions have this option set, the answers to those questions are combined in a single name, separated by a dash (‘-‘). In this way, you can give data points names that identify what you have surveyed, so they are easy to find back in the list of data points.
 
-Allow sign and Allow decimal point 
+### Allow sign and Allow decimal point 
 By default, device users cannot enter a positive or negative sign or decimal point for number question responses. You can choose to allow device users to enter numbers with signs and/or enter numbers with decimal points by ticking the boxes next to “Allow sign” and/or “Allow decimal point”.
 
-Require double entry of answer in device
+### Require double entry of answer in device
 This can be used to force the user to type the answer to the question twice, which can be used as data verification. This can be useful for items such as telephone numbers, or identification numbers, which are easy to type wrong.
 
-Minimum and Maximum value 
+### Minimum and Maximum value 
 You can also set minimum and/or maximum values for the numbers that the device user can enter. This will prevent them from being able to submit responses outside the specified range.
 
 
 ## Option question
 Create a set of preset options for the device user to select from on the device when answering the question. Option questions can be single answer or multiple answers. The survey author can elect to allow ‘other’ responses, which on the device presents a free text field for entering any other response outside the preset options. Option questions will have frequency analysis performed on them in data analysis.
 
-
-
-Option question settings
+### Option question settings
 An option question offers three additional settings. For option questions, you can enter options in the text box that appears below. For each option you can also create a code, which is not mandatory. This is entered in the first text box. The second box is where you type in your option name.
 
+![Option question](media/settings_option_question.png)
 
-Allow multiple 
+### Allow multiple 
 On the device, the default behaviour for option questions is that the device user can only select one answer. You can allow device users to select multiple responses to a question by ticking the box next to “Allow multiple”. 
 
-
-
-Allow other 
+### Allow other 
 You can allow device users to enter a free text (‘Other’) answer on the device by ticking the box next to “Allow other”.
 
-Working with codes (optional)
+### Working with codes (optional)
 Each option field can have a codes as well. You can add the code to each option by entering it in the first text box (before the option itself). The codes are not mandatory, so you can also create options without codes. However, once you add a code to one option, you must add them to all your options. If you have selected 'Allow other' the code is pre-defined as 'other'.
 
 Once you have collected your data, the answer will hold the option name as well as the code. These codes are, however, not shown in the Data tab when previewing data. You can only see the codes in the raw data reports. This is because the main use of codes is it simplify analysing the data.
 
+![Option question](media/settings_option_question_codes.png)
 
-Use as data point name
+### Use as data point name
 Each datapoint you create on the Flow app is given a name. The name is determined by questions that have this option set. If multiple questions have this option set, the answers to those questions are combined in a single name, separated by a dash (‘-‘). In this way, you can give data points names that identify what you have surveyed, so they are easy to find back in the list of data points.
 
 
@@ -161,35 +160,35 @@ In Akvo Flow the cascade questions are based on a cascade resource. Once you cre
 
 Capturing location is one of the many ways you can use the cascades. You can create a scoring chain using cascades, transform tabular questions into cascades and more. To see more examples check these tutorials. 
 
+### Cascade question settings
+![Cascade question](media/settings_cascade_question.png)
 
-
-Cascade question settings
-
-Use as data point name
+### Use as data point name
 Each datapoint you create on the Flow app is given a name. The name is determined by questions that have this option set. If multiple questions have this option set, the answers to those questions are combined in a single name, separated by a dash (‘-‘). In this way, you can give data points names that identify what you have surveyed, so they are easy to find back in the list of data points.
 
 ## Geolocation question
 Geolocation question type uses the device’s GPS to automatically fill in latitude, longitude and elevation. Click the Check Geo Location button to fill in these questions on the device.
 
-Geolocation question settings
+### Geolocation question settings
+![Geolocation question](media/settings_geo_question.png)
 
-
-Use as data point location
+### Use as data point location
 In some cases, you might have multiple geolocations in a single survey form. In that case, this setting determines which one will be used as the primary location of the datapoint (where a marker will be shown on the map). If there is only a single geolocation question in the form, that one will be used by default.
 
-Disable manual editing of values on device
+### Disable manual editing of values on device
 Setting this option will stop users manually entering latitude and longitude on the device. In almost all cases, the device should provide the GPS coordinates, and manual entry is unwanted. Only in the rare case where you have an external GPS device is manual entry needed.
 
 
 ## Geographic shape question
 Geographic shape question type allows the user to define points, lines or areas on a map. This can for example be used to capture geographic features of interest such a group of water taps, walking paths, farmer plots, or protected woodland areas. Here you can read more on how to create such a shape using the Flow app. 
 
-Geographic shape question settings
+### Geographic shape question settings
+![Geolocation question](media/settings_geoshape_question.png)
 
-Feature types
+### Feature types
 For a geographic feature question there is the option to restrict the choice of feature types available to the enumerator. If nothing is selected, the enumerator can choose between points, lines, and areas when she creates a new feature. If you already know that the enumerator will only need to create areas, for example, it makes sense to hide the other options, to avoid confusion.
 
-Disable manual editing of geo values on device
+### Disable manual editing of geo values on device
 Setting this option will stop users manually entering latitude and longitude on the device. In almost all cases, the device should provide the GPS coordinates, and manual entry is unwanted. Only in the rare case where you have an external GPS device is manual entry needed.
 
 
@@ -200,18 +199,17 @@ Below you can find the steps on how to create, edit and delete a shape.
 
 
 
-Creating a shape 
+### Creating a shape 
 If you want to create a geographic shape there are two ways to do so. One way is to create the shape manually and the other uses the internal GPS of your device.
 
-Creating a shape manually
+### Creating a shape manually
 With this method you can create the shape directly on your screen manually without needing to move around the area to capture it. 
 
-Select the geographic shape by clicking on the shape icon in the top menu bar. 
-Tap on the map on the location where you want to create the geographic shape until you see the message to add a point to this location. This should take less than a second. 
-Confirm you want to add a point to this location.The point is now added to the map showing the latitude and longitude.
-Add another point.  
-Once your shape is complete, hit save in the top menu bar. 
-
+1. Select the geographic shape by clicking on the shape icon in the top menu bar. 
+2. Tap on the map on the location where you want to create the geographic shape until you see the message to add a point to this location. This should take less than a second. 
+3. Confirm you want to add a point to this location.The point is now added to the map showing the latitude and longitude.
+4. Add another point.  
+5. Once your shape is complete, hit save in the top menu bar. 
 
 
 Creating the shape using the GPS on your device

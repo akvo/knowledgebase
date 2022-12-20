@@ -40,6 +40,7 @@ nav:
   - 'FLOW':
     - 'What is Akvo FLOW?': 'flow/index.md'
     - 'Online Workspace': 'flow/workspace.md'
+    - 'Folders': 'flow/folders.md'
     - 'Surveys': 'flow/surveys.md'
     - 'Forms': 'flow/forms.md'
     - 'Question Groups': 'flow/groups.md'
