@@ -25,4 +25,4 @@ Use Dataset Filters when you want to filter out data from your visualisaiton. Fo
 
 Lumen will auto-save all the changes you made.
 
-Read more about different visualization types here.  
+Read more about different visualization types [here](visualize.md).  
