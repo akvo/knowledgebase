@@ -47,7 +47,10 @@ To add a geoshape layer to your map follow these steps:
 ![Create a map with a geoshape layer](media/create_geoshape_layer.gif)
 
 ## Create a map with a raster layer
-You may add raster image as one of the layers on a map. Read about how to upload raster data to your Lumen instance here.  
+
+![Create a map with a raster layer](media/create_raster_layer_1.gif)
+
+You may add raster image as one of the layers on a map. Read about how to upload raster data to your Lumen instance [here](connect.md).  
 
 Once raster data is uploaded to your Lumen library, you can start building a custom map. To do so, click on + Visualisation button at the top of your screen and choose Map. Once you’re in the map editor, you’ll see a section called Layers with a + button next to it. Click on + to create a new layer. Read about how to create and manage map layers here.
 
@@ -55,6 +58,7 @@ To set up a raster layer, choose a raster file you uploaded earlier from the Sou
 
 Example map with a raster layer:
 
+![Create a map with a raster layer](media/raster_layer_map.png)
 
 
 After you have a raster layer set up, you can add a few other map layers. For instance, you could add a layer containing geolocation of data points representing water and sanitation facilities, or any other data. Read about how to create a custom layer containing geolocation facilities here.
@@ -69,7 +73,7 @@ A new layer gets a default title ‘Untitled Layer 1’, ‘Untitiled Layer 2’
 Now the layer is ready to be configured. Click on the layer and you’ll be taken to the layer editor, where you can configure Data, Legend, Pop-up and Theme. 
 
 
-
+![Create a new map layer](media/create_map_layer.gif)
 
 In the event when a layer needs to be deleted, click on the three-dot sign next to the layer and choose Delete.  
 
@@ -84,3 +88,5 @@ We support three different map types: street, satellite and terrain. Choose the 
 
 The second setting allows you to centre the world around the antimeridian (the 180th meridian). With this setting creating maps for the Pacific could not be easier. 
 
+
+![Base map settings](media/base_map_settings.gif)
