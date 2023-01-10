@@ -192,7 +192,7 @@ For a geographic feature question there is the option to restrict the choice of 
 Setting this option will stop users manually entering latitude and longitude on the device. In almost all cases, the device should provide the GPS coordinates, and manual entry is unwanted. Only in the rare case where you have an external GPS device is manual entry needed.
 
 
-## Capturing geographic shapes
+### Capturing geographic shapes
 A geographic shape (line or an area) consist of points. To create a line, you need to add at least two points. To create an area, you need to add at least three points. To be able to create a shape with Akvo Flow, the accuracy of the location of the point has to be 20m and less. If your GPS accuracy is higher than that, you will not be able to create the point. This is to ensure that your captured shapes reflect the location as best as possible. The accuracy is shown in the geoshape editor screen on the app. 
 
 Below you can find the steps on how to create, edit and delete a shape. 
@@ -211,44 +211,48 @@ With this method you can create the shape directly on your screen manually witho
 4. Add another point.  
 5. Once your shape is complete, hit save in the top menu bar. 
 
+![Creating a shape](media/creating_shapes.gif)
 
 Creating the shape using the GPS on your device
 With this method you will be able to capture a geographic shape by using the GPS on your device by walking around or towards the structure you want to map out. The steps needed to capture the geographic shape this way do not differ in essence from the above mentioned steps. 
 
-Once you are at the area you want to capture, click on the add point icon on the bottom of your screen. 
-Move to the next point and repeat adding the point. 
-Once you have captured your entire area, hit Save on the top of your screen. 
+1. Once you are at the area you want to capture, click on the add point icon on the bottom of your screen. 
+2. Move to the next point and repeat adding the point. 
+3. Once you have captured your entire area, hit **Save** on the top of your screen. 
 
 
+![Creating a shape](media/creating_shapes.png)
 
 
-
-Editing a saved shape
+### Editing a saved shape
 Every time you finish working on your geographic shape you need to save it. But sometimes you need to relocate while creating the shape. This means you are in one location, you turn off your phone and move to another location. We currently do not autosave the shapes you create. But you can save your shape that is still in progress, move to the next spot, open the shape and click on your last point to edit the shape again. 
 
+![Creating a shape](media/editing_shapes.gif)
 
 
-
-Moving the location of a point
+### Moving the location of a point
 You can also move the point, if you are not satisfied with its location. In order to move the point you have just created, place your finger on top of the point. Keep your finger at the point and move your finger towards the desired place. The point will automatically follow your moves. Once you let go of the screen the point will be moved.
 
+![Creating a shape](media/moving_location_point.gif)
 
 
-
-Deleting a point
+### Deleting a point
 If you need to delete a point from your created shape, press your finger on the point to select it. Click on the delete point icon on the bottom of your screen. A pop up window will appear to confirm your actions. Select ‘OK’ if you are sure you want to delete the point.
 
+![Creating a shape](media/deleting_points.gif)
 
 
-
-Deleting an entire shape
+### Deleting an entire shape
 To delete the created geographic share, press the delete shape icon at the bottom of your screen. A confirmation question will appear in the pop up window. If you are sure, you want to delete the shape, press ‘OK’.
 
+![Creating a shape](media/deleting_shapes.gif)
 
 
-
-Shape details
+### Shape details
 To check the properties of your created shape, click on the ‘information’ icon on the bottom of your screen. A window will show you information on the point count, length and the size of the area, which are automatically calculated.
+
+![Creating a shape](media/shape_details.gif)
+
 ## Photo and Video question
 Witt the photo question type and video question type you can take a photo as part of the survey. 
 
@@ -257,8 +261,8 @@ Witt the photo question type and video question type you can take a photo as par
 Photo questions
 There are no settings to decide on regarding photos. But there are two important things to know when it comes to using this question type:
 
-Size of photos
-Photos captured with Flow are geographically referenced
+1. Size of photos
+2. Photos captured with Flow are geographically referenced
 
 
 Size of photos
@@ -266,8 +270,9 @@ There are three possible photo sizes to choose from. By default we use the minim
 
 If you want to change the size of photos or make the images as large as possible in the Flow app, go to Settings and select the Image size you prefer. 
 
+![Photo questions](media/photo_size.png)
 
-Photos are geographically referenced
+### Photos are geographically referenced
 Having a photo geographically referenced, or geotagged, means that the location of where the photo was taken is saved with the photo. If you enable photo geotagging on your device, each photo you capture will hold location data, a geotag. If you do not enable geotagging on your device, or you do not have your GPS turned on, or you are in an area where it is hard to gather GPS data, your photos are not geotagged. 
 
 When capturing a photo a part of your Flow form (or using an existing one from your devices Gallery), the Flow app reads this geotag and saves it with your photo. You can see the geotag on Flow maps or export the data with the Data analysis export. 
@@ -287,71 +292,69 @@ In your Flow's online space when previewing the submitted forms we show the lati
 
 
 An example of a geotagged photo shown in the Inspect data tab 
-
+![Photo questions](media/photo_inspect.png)
 
 An example of a geotagged photo shown in the Map tab
-
+![Photo questions](media/photo_map.png)
 
 ## Date question
 With the date question type you can pick a date when capturing your data. A date picker is shown on the device for the user to simply select a date.
+
+
 
 ## Barcode question
 With the Barcode question you can scan a barcode or a QR code as part of your Flow form. Install a scanner app on your device and Flow will connect to it once you reach the question in the Flow app. 
 
 
 
-Scanning Barcodes and QR codes 
+### Scanning Barcodes and QR codes 
 You can scan barcodes and QR codes within Flow. Install an app on your phone, for example, Barcode scanner, or use an external scanning device. The value will show as numbers in your data. For more information contact our support team for more advice. 
 
 
 
-Barcode questions settings
+### Barcode questions settings
 
+![Barcode questions](media/barcode_settings.png)
 
-Enable multiple barcode scan
+### Enable multiple barcode scan
 In some cases, you might want to scan multiple barcodes at one. This setting enables you to scan as many barcodes as you need within one question.
 
-Disable manual editing of values on device
+### Disable manual editing of values on device
 Setting this option will stop users manually entering the barcode on the device.
 
 ## Signature question
 With this question type you can add a signature field to your form. The signature is entered with the Akvo Flow app. In the app the user has to provide two fields: the signature itself written down on the app canvas; and the signatory's name. Both fields are mandatory in order for the signature to be submitted.
 
- For more information check the guide of how to use signatures of Akvo Flow
+<!-- For more information check the guide of how to use signatures of Akvo Flow -->
 
-
-
-Where is the Flow signature stored?
+### Where is the Flow signature stored?
 Because signatures represent sensitive pieces of information we took extra precaution when storing the images. All other photos collected and submitted via the Flow app are stored on Amazon S3 servers, where they can be accessed via a specific link created for each photo.
 
 To ensure the security of signature images, they are stored instead directly in the main Flow database. The only way to view the signature is to be a signed-in user with the appropriate permissions. This also means there is no link available to the image, neither in the Flow online space, nor in the exported data report.
 
-
-
-Is the Flow signature legally binding?
-The legal aspects of signatures can be quite confusing, especially because of the different types of ‘electronic’ signatures. We follow the EU framework for electronic signatures, according to which Flow captures electronic signatures. Electronic signatures “represent data in an electronic form attached to other data with the purpose to serve as a form of authentication”. (Article 2, point 1)
+### Is the Flow signature legally binding?
+The legal aspects of signatures can be quite confusing, especially because of the different types of ‘electronic’ signatures. We follow [the EU framework for electronic signatures](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31999L0093:en:HTML), according to which Flow captures electronic signatures. Electronic signatures “represent data in an electronic form attached to other data with the purpose to serve as a form of authentication”. (Article 2, point 1)
 
 This type of signature does not share the same qualities as ‘digital signatures’, 'advanced electronic signatures' and 'qualified electronic signatures’ as Flow is not a ‘secure signature-creation device’. Based on Article 5, point 2 of this framework an 'electronic signature' does not need to be created by a 'secure signature-creation' device to be legally binding.
 
 However, we do not take legal responsibility for the use of the submitted electronic signatures and we do not guarantee their legality. To fully understand the legality of electronic signatures and their use we recommend to consult a lawyer as the regulations differ among countries and their national legislations.
 
-## Capturing signatures on Akvo Flow
+### Capturing signatures on Akvo Flow
 With the Signature question type you can now add a signature field to your form.
 
 
-
-How does it work?
+### How does it work?
 When creating your survey simply select 'Signature' as the question type for your new question. You can make this question mandatory, but you cannot base the data point name on a signature.
 
-
+![Capturing signatures on Akvo Flow](media/signature.png)
 
 The signature is entered with the Akvo Flow app. In the app the user has to provide two fields:
 
-the signature itself written down on the app canvas
-the signatory's name
+- the signature itself written down on the app canvas
+- the signatory's name
 
 
-
+![Capturing signatures on Akvo Flow](media/signature.gif)
 
 
 Both fields are mandatory in order for the signature to be submitted.
@@ -362,29 +365,21 @@ In your Flow's online space, when previewing the submitted form, both the given 
 
 Exported reports hold the name of the signatory as the answer field. Furthermore, we record the date and time of form submission, device ID, and GPS location (if available) as additional information that can provide further confirmation for the signature.
 
+![Capturing signatures on Akvo Flow](media/signature_final.png)
 
-
-Where is the Flow signature stored?
+<!-- ### Where is the Flow signature stored?
 Because signatures represent sensitive pieces of information we took extra precaution when storing the images. All other photos collected and submitted via the Flow app are stored on Amazon S3 servers, where they can be accessed via a specific link created for each photo.
 
-To ensure the security of signature images, they are stored instead directly in the main Flow database. The only way to view the signature is to be a signed-in user with the appropriate permissions. This also means there is no link available to the image, neither in the Flow online space, nor in the exported data report.
+To ensure the security of signature images, they are stored instead directly in the main Flow database. The only way to view the signature is to be a signed-in user with the appropriate permissions. This also means there is no link available to the image, neither in the Flow online space, nor in the exported data report. -->
 
 
-
-Is the Flow signature legally binding?
-
-The legal aspects of signatures can be quite confusing, especially because of the different types of ‘electronic’ signatures. We follow the EU framework for electronic signatures, according to which Flow captures electronic signatures. Electronic signatures “represent data in an electronic form attached to other data with the purpose to serve as a form of authentication”. (Article 2, point 1)
-
-This type of signature does not share the same qualities as ‘digital signatures’, 'advanced electronic signatures' and 'qualified electronic signatures’ as Flow is not a ‘secure signature-creation device’. Based on Article 5, point 2 of this framework an 'electronic signature' does not need to be created by a 'secure signature-creation' device to be legally binding.
-
-However, we do not take legal responsibility for the use of the submitted electronic signatures and we do not guarantee their legality. To fully understand the legality of electronic signatures and their use we recommend to consult a lawyer as the regulations differ among countries and their national legislations.
 
 ## Akvo Caddisfly question
-Akvo Caddisfly enables you to add a water quality test to your Flow survey. You can choose from a list of parameters that you want to measure. For more information check the guide on what Akvo Caddisfly is and how to use it as part of your Flow survey. 
+Akvo Caddisfly enables you to add a water quality test to your Flow survey. You can choose from a list of parameters that you want to measure. For more information check the guide on what [Akvo Caddisfly](caddisfly.md) is and how to use it as part of your Flow survey. 
 
 
+![Akvo Caddisfly ](media/caddisfly.png)
 
-
-Akvo Caddisfly question settings
+### Akvo Caddisfly question settings
 When selecting Akvo Caddisfly as your question type you need to specify which parameter you want to measure in your water quality test or your soil quality test.
 

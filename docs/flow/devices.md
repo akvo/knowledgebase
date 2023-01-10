@@ -1,69 +1,75 @@
 ## Devices list
 The Devices list in the Devices tab shows you all the devices with the Flow app installed that link to your Flow space. The list is organised by last connection, so you can easily see which devices have actively been in use recently and easily distribute surveys to your enumerators capturing data in the field. 
 
-
-
+![Devices list](media/device_list.png)
 
 In the Devices list you can see a lot of information about your devices: 
 
-IMEI - an identifying number unique to each device that helps to identify it in our database
-Device ID - a name you set on the device to help you identify each device
-Device Group - the device group to which the device belongs; optional
-Last Contact - the last time the device connected with the online space
-Version - the version of the Flow app the device is running
+- IMEI - an identifying number unique to each device that helps to identify it in our database
+- Device ID - a name you set on the device to help you identify each device
+- Device Group - the device group to which the device belongs; optional
+- Last Contact - the last time the device connected with the online space
+- Version - the version of the Flow app the device is running
+  
 The most important items are the Device ID, Last contact and version. If your device is without an ID, ask the enumerator to update her Flow app to the latests version. 
 
 
 
-Managing device groups
+## Managing device groups
 Device groups allow you to organise the all devices attached to your Flow online space into smaller groups, so that when you create Assignments you can select a device group instead of having to select the devices individually. Each device can belong to only one device group. You do not have to put a device in a group. 
 
 
-
-To create, change or delete a device group
+## To create, change or delete a device group
 Click the Manage Device Groups button. It will display a pop-up that gives you three choices: change the name of an existing group, create a new device group, and delete an existing device group. Fill out the form as appropriate and click Save to save changes, or Cancel to discard changes.
 
-Change, create or delete a device group and click Save
-To add a device or change the device group
+
+![Managing device groups](media/device_group_1.png)
+![Managing device groups](media/device_group_2.png)
+
+
+## To add a device or change the device group
 Find the device(s) in the Devices List and tick the box next to each device in the first column in the table. Click 'Add to device group' in the upper right of the Device List. From the pop-up window that appears, select a device group from the dropdown and click OK to save changes, or Cancel to discard changes. You will see the name of the Device Group you just selected in the device row(s) in the Devices List.
 
 Tick the box next to a device in the list and then click Add to device group. Select the device group to which you’d like to add devices and click Save.
 
+![Managing device groups](media/add_device_1.png)
+![Managing device groups](media/add_device_2.png)
 
-
-To remove a device from a device group
+## To remove a device from a device group
 Find the device(s) in the Devices List and tick the box next to each device in the first column in the table. Click “Remove from device group” in the upper right of the Device List. The pop-up window that appears will ask you to confirm the removal. Click OK to remove the device, Cancel to keep the device in it’s current group. You will see the name of the Device Group you just removed disappear from the device row(s) in the Devices List.
 
 Tick the box next to a device in the list that you’d like to remove and then click Remove from device group. Click OK to confirm that you’d like to remove the device from the group.
 
+![Managing device groups](media/remove_device_1.png)
+![Managing device groups](media/remove_device_2.png)
 
 ## Assignments
 The second tab under Devices is the Assignments tab. With Akvo Flow's assignments you send published survey forms to the Akvo Flow app for data collection. In the Assignments tab you manage you data assignments. Apart from sending published survey forms to the Akvo Flow app, you can also choose to send all or just a subset of data points, that have been collected for a survey, to a device for monitoring. Note that this applies only to monitoring surveys. Read more about monitoring with Akvo Flow.
 
 
 
-Assignments list 
+### Assignments list 
 All assignments are listed in this page. Each assignment has a Name, Start Date and End Date. Organise your list by clicking on the headers. This way you can see which assignments start now or which have already passed their expiration date. This is also where you can create, edit and delete your assignments. 
 
 
 
 
-Create a new assignment
+## Create a new assignment
 To push your published survey forms to devices for data collection you need to create an assignment. To do so: 
 
-Go to the Devices tab. 
-Go to the Assignments subtab. 
-Click the Create new assignment button. 
-Enter the assignment name. The assignment name will appear in the Assignments List once you save it. 
-Define the start date and expiration date. The start date and expiration date will determine the period of time the survey forms are sent to the devices. If you republish the form in this time period, the devices will get the updates automatically (if connected to a network). Please note, that the assignment dates do not prevent the enumerators from submitting data.
-Select the survey and forms you want to assign. Once you select your survey, you will see the published forms appear in a list. You can assign one or all forms.
-In Devices, click on the ADD button and you will be taken to a list of device groups. You can select device(s) or entire device groups to which you want to send the published forms. After selecting devices and/or device groups click the Add to Assignment button. Devices that appear in the left column are now part of the assignment and will receive the selected survey forms. In the case of monitoring surveys, these devices are able to download all the data points that have been submitted to the dashboard for the survey or a subset of the data points. On how to assign specific data points, check the explanation below. 
-Once you have made all your selections, click the Save button at the bottom to save the assignment.
+1. Go to the Devices tab. 
+2. Go to the Assignments subtab. 
+3. Click the Create new assignment button. 
+4. Enter the assignment name. The assignment name will appear in the Assignments List once you save it. 
+5. Define the start date and expiration date. The start date and expiration date will determine the period of time the survey forms are sent to the devices. If you republish the form in this time period, the devices will get the updates automatically (if connected to a network). Please note, that the assignment dates do not prevent the enumerators from submitting data.
+6. Select the survey and forms you want to assign. Once you select your survey, you will see the published forms appear in a list. You can assign one or all forms.
+7. In Devices, click on the ADD button and you will be taken to a list of device groups. You can select device(s) or entire device groups to which you want to send the published forms. After selecting devices and/or device groups click the Add to Assignment button. Devices that appear in the left column are now part of the assignment and will receive the selected survey forms. In the case of monitoring surveys, these devices are able to download all the data points that have been submitted to the dashboard for the survey or a subset of the data points. On how to assign specific data points, check the explanation below. 
+8. Once you have made all your selections, click the Save button at the bottom to save the assignment.
 Saving an assignment will trigger the survey forms you selected to download to the devices you selected. You must open the Akvo Flow app to trigger the download and be connected to a network.  In addition to downloading the survey forms, the assignment also enables devices to download data points that have already been submitted to the online working space in case you assigned a monitoring survey to the device.
 
 To edit or to delete an assignment, simply click on the action buttons next to it in the list. 
 
-
+![Managing device assignments](media/assignments.gif)
 
 
 Assign data points to an enumerator for monitoring
