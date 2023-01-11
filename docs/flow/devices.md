@@ -24,7 +24,6 @@ Click the Manage Device Groups button. It will display a pop-up that gives you t
 
 
 ![Managing device groups](media/device_group_1.png)
-![Managing device groups](media/device_group_2.png)
 
 
 ## To add a device or change the device group
@@ -52,8 +51,6 @@ The second tab under Devices is the Assignments tab. With Akvo Flow's assignment
 All assignments are listed in this page. Each assignment has a Name, Start Date and End Date. Organise your list by clicking on the headers. This way you can see which assignments start now or which have already passed their expiration date. This is also where you can create, edit and delete your assignments. 
 
 
-
-
 ## Create a new assignment
 To push your published survey forms to devices for data collection you need to create an assignment. To do so: 
 
@@ -72,39 +69,40 @@ To edit or to delete an assignment, simply click on the action buttons next to i
 ![Managing device assignments](media/assignments.gif)
 
 
-Assign data points to an enumerator for monitoring
+### Assign data points to an enumerator for monitoring
 In addition to sending survey forms to an enumerator's device, an assignment also enables an enumerator to download all data points that have been gathered and submitted from other enumerator's devices with the same monitoring survey. Note that downloading data points only applies to monitoring surveys. 
 
 You can follow these steps to assign data points to an enumerator:
 
-After adding a device to an assignment, select the device of a specific enumerator by clicking on it in the left column. 
-In the main window you will notice that all data points have been assigned to the device. If you do not want this device to download any data points or you want to specify which data points it can download, click on Undo. 
-To assign specific data points, click on the Assign data points dropdown and select By data point name or ID. A small window pane will open up to the right of the screen with a search box. Here you can type the first few letters of the data point name or the data point identifier and press enter and the corresponding data points will be listed. Select the ones you want to assign and click on the Assign button. The next time the enumerator selects Download on their phone, the assigned data points will be downloaded.
-If you make a mistake when assigning, its possible to select the Edit button above the data points list in the main window, select the datapoint and click Remove.
-You can also restore the possibility to download all data points by clicking on the Assign data points dropdown and selecting Assign all data points.
-Once done, Save the assignment. 
+1. After adding a device to an assignment, select the device of a specific enumerator by clicking on it in the left column. 
+2. In the main window you will notice that all data points have been assigned to the device. If you do not want this device to download any data points or you want to specify which data points it can download, click on Undo. 
+3. To assign specific data points, click on the Assign data points dropdown and select By data point name or ID. A small window pane will open up to the right of the screen with a search box. Here you can type the first few letters of the data point name or the data point identifier and press enter and the corresponding data points will be listed. Select the ones you want to assign and click on the Assign button. The next time the enumerator selects Download on their phone, the assigned data points will be downloaded.
+4. If you make a mistake when assigning, its possible to select the Edit button above the data points list in the main window, select the datapoint and click Remove.
+5. You can also restore the possibility to download all data points by clicking on the Assign data points dropdown and selecting Assign all data points.
+6. Once done, Save the assignment. 
+
 Existing assignments holding monitoring surveys automatically get all data points assigned to the devices. You can change these assignments simply by editing the assignments. 
 
-
+![Managing device assignments](media/assignments_2.gif)
 
 ## Manual survey transfer
 Manual Survey Transfer (formerly known as bootstrap) allows you to generate a file of a Akvo Flow survey you’ve already published that you can email to yourself or your colleagues to install on devices manually, in situations with low or no connectivity to a wireless or mobile network.
 
-To create a survey file
+### To create a survey file
 
+![Managing device assignments](media/manual_assignment.png)
 
-
-In 01. Select survey, select the survey group where you stored the survey for which you want to create a file. Once you make a selection in the dropdown, you’ll see all the published surveys from that group appear in the text box to the right.
+In **01. Select survey**, select the survey group where you stored the survey for which you want to create a file. Once you make a selection in the dropdown, you’ll see all the published surveys from that group appear in the text box to the right.
 
 Select a survey from the list by clicking to highlight and then click “+ add selected surveys” below the box. You’ll see the survey you selected appear to the right in “Preview Survey selection.”
 
-In 02. Notification details, enter the email address to which you’d like to send the survey file. You can enter just one email address.
+In **02. Notification details**, enter the email address to which you’d like to send the survey file. You can enter just one email address.
 
 Once you are finished, click the Send File button. You’ll see a confirmation pop-up. Check your email for an email from “FLOW” with the subject line “FLOW bootstrap file.” The email will contain a link to download the bootstrap file. Click the link to download the file to your computer. Do NOT unzip the file.
 
 Once you’ve done that, follow these steps:
 
-Connect your device to a computer using a USB cable, so you can see the contents of the SD card.
-Go to the folder akvoflow/inbox
-Copy the survey zip file to the inbox folder
-Disconnect the device, and start the FLOW app. The new form will automatically be found.
+1. Connect your device to a computer using a USB cable, so you can see the contents of the SD card.
+2. Go to the folder akvoflow/inbox
+3. Copy the survey zip file to the inbox folder
+4. Disconnect the device, and start the FLOW app. The new form will automatically be found.
