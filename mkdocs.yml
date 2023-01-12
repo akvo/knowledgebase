@@ -52,7 +52,7 @@ nav:
     - 'FLOW App': 'flow/app.md'
     - 'Data collection': 'flow/collection.md'
     - 'Data monitoring': 'flow/monitoring.md'
-    - 'Caddisfly': 'flow/caddisfly.md'
+    - 'Akvo Caddisfly': 'flow/caddisfly.md'
     - 'Quickstart Guides': 'flow/guides.md'
     - 'APIs': 'flow/apis.md'
     - 'FAQs': 'flow/faqs.md'
