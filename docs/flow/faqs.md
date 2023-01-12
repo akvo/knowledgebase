@@ -1,30 +1,30 @@
 ## In what languages is Akvo Flow available?
-Flow's online space is available in these languages: English, Spanish, French, Portuguese, Bahasa Indonesia and Vietnamese.
+Flow's online space is available in these languages: **English, Spanish, French, Portuguese, Bahasa Indonesia and Vietnamese**.
 
-The Flow app is available in multiple languages as well. We currently provide these languages: Bahasa Indonesia, English, Spanish, French, Hindi, Khmer, Portuguese, Dutch, Vietnamese and Nepali. 
+The Flow app is available in multiple languages as well. We currently provide these languages: **Bahasa Indonesia, English, Spanish, French, Hindi, Khmer, Portuguese, Dutch, Vietnamese and Nepali**. 
 
-Furthermore, Flow allows users to enter alternate translations for surveys on the online space, and then make those available on the Flow app. This allows data collectors in the field to conduct surveys in their local language. There are 183 languages available in the language list and many languages with a non-Roman alphabet or ones reading anything other than left-to-right work as well. However, we do not guarantee that all languages will work on the Flow app as they require a special character set and support on the device. Please contact Akvo to learn more about this and you can read more information here on how to translate your survey.
+Furthermore, Flow allows users to enter alternate translations for surveys on the online space, and then make those available on the Flow app. This allows data collectors in the field to conduct surveys in their local language. There are 183 languages available in the language list and many languages with a non-Roman alphabet or ones reading anything other than left-to-right work as well. However, we do not guarantee that all languages will work on the Flow app as they require a special character set and support on the device. Please contact Akvo to learn more about this and you can read more information [here](forms.md) on how to translate your survey.
 
 ## We work in remote locations. Will Akvo Flow work for us, if we have bad or no internet connection?
 Akvo Flow consists of two main components: the online workspace that runs on your browser and an Android app.
 
 As with any web-based application, you need to connect to the internet to use Flow's online workspace. Since most of our users work in places with slow connection, but still want to collect a lot of data using large surveys and having a seamless and fast experience, we continuously improve Flow to load quickly, even if your internet connection is not the best. If you can open and use other pages, like your favourite news provider, social media app or your email, then you can also use Flow. 
 
-Our Flow app supports full offline data collection. You can add your Flow survey to the app, capture an unlimited amount of data, and share the collected data fully offline. For more details, check this article. 
+Our Flow app supports full offline data collection. You can add your Flow survey to the app, capture an unlimited amount of data, and share the collected data fully offline. For more details, [check this article](collection.md). 
 
 ## How does Akvo ensure data security?
 At Akvo, supporting you and your data journey is our top priority. So when you choose to share any data or information with us or use our products, we commit to keeping it safe and secure. Akvo has strong data security and privacy protection policies, frameworks, and procedures in place. In this article we share a short overview of these policies and the key points around how we ensure data privacy and security. 
 
 
 
-Policies and Terms  
-Akvo's general terms and conditions, Data processing agreement and specific product Services and Support Terms and Conditions, Terms of use and Data privacy policies can all be found openly available on our website.  
+### Policies and Terms  
+Akvo's general terms and conditions, Data processing agreement and specific product Services and Support Terms and Conditions, Terms of use and Data privacy policies can all be found openly available on our [website](http://akvo.org/help/akvo-policies-and-terms-2/).  
 
-We also actively work on ensuring compliance with the General Data Protection Regulation, a new European law aimed at further securing the protection of personal data. 
+We also actively work on ensuring compliance with the [General Data Protection Regulation](http://akvo.org/help/akvo-policies-and-terms-2/gdpr/), a new European law aimed at further securing the protection of personal data. 
 
 
 
-You own your data 
+### You own your data 
 Your survey data is owned by you. Not only that, but the Akvo Foundation treats your surveys as if they were private (except if you have selected to add the surveys to the Akvo Flow’s public map) and we act merely as a custodian of your data. You retain full ownership to your data and content. Akvo does not claim any ownership to it. You can download your data at any time accessing the online workspace or extracting your data via Flow's read API. 
 
 We don’t sell them to anyone and we don’t use the survey responses you collect for purposes unrelated to you or our services, except in a limited set of circumstances (e.g. if we are compelled by a subpoena, or if you’ve given us permission to do so).
@@ -35,7 +35,7 @@ For more details on how we handle your personal data check this article.
 
 
 
-Data privacy and security 
+### Data privacy and security 
 We safeguard collected ted and the Akvo Foundation acts as a mere custodian of that data. For more details on how we handle your personal data check this article.
 
 All communication between various parts of the Flow system are carried out over a secure connection and are encrypted. We use Secure Socket Layer (SSL) encryption protocol in all such communication.
@@ -50,17 +50,17 @@ Akvo takes all reasonable precautions against system security breaches, but ther
 
 
 
-Data deletion
+### Data deletion
 Only users with the given deletion permission can delete data. Data deletion on the your Flow instance is accompanied with warning pop ups and only one form submission can be deleted at a time. This decreases the risk of unintentional mistakes and data loss. However, once data is deleted from your Flow instance it cannot be retrieved. We advise you to limit the users you give the data deletion permission and to ensure you back up your data regularly.
 
 Akvo staff supporting you in using our tools does not delete your data (or survey forms, assignments, device groups, users, etc) without your written consent. 
 
 
 
-Data storage
+### Data storage
 Akvo tools makes use of cloud-based software and storage. Cloud-based software and storage has multiple advantages. Costs for storage are reduced, security levels are increased, data can be encrypted (during transmission and at rest), and back-ups can be automated and kept safe. Cloud-based systems enable users to access their account from multiple locations and multiple devices, such as computers, tablets and phones over the Internet.
 
-Flow uses cloud services provided by Google (Google App Engine) for software execution, where we run the data exports and for data retention, Amazon (Amazon S3) for pictures, data exports and data backups. They are amongst the most used and best known service providers globally, are ISO certified and comply with US and EU regulations. The serves used are EU held. Moreover, these organisations provide round-the-clock security maintenance and essential upgrades for the best level of security. In addition, we do regular database backups to protect against any eventuality. We backup all your data once a week and each back up older than 3 months is automatically deleted. 
+Flow uses cloud services provided by [Google (Google App Engine)](http://cloud.google.com/security/) for software execution, where we run the data exports and for data retention, [Amazon (Amazon S3)](http://aws.amazon.com/security/) for pictures, data exports and data backups. They are amongst the most used and best known service providers globally, are ISO certified and comply with US and EU regulations. The serves used are EU held. Moreover, these organisations provide round-the-clock security maintenance and essential upgrades for the best level of security. In addition, we do regular database backups to protect against any eventuality. We backup all your data once a week and each back up older than 3 months is automatically deleted. 
 
 We store your data in a private folder on your devices when using the Flow app (version 2.5.0 and newer). This folder is not accessible by connecting your device to a computer or browsing the files via the My files app on your Android device. Furthermore, if you delete data from your Flow app or uninstall the app, all the data will also be removed from your device automatically.   
 
@@ -68,57 +68,55 @@ If you are interested in storing your data locally, you can use our data export 
 
 The regulations around storing data in the cloud are in many countries still under development. Some countries demand that data that is related to ‘national security’ should be stored inside the country. Akvo has a policy in place not to work with partners on initiatives that aim to collect data that relates to these matters of national security.
 
-Open data and data sharing – Your choice
+### Open data and data sharing – Your choice
 In cases where you collect data that is not sensitive or private, we encourage you to open up data where appropriate, so it can support “the common good”. With Flow's survey setting you can set your survey to 'public'. This means that any submissions made to the survey forms will show on your Flow instance public map. Data displayed on the public map follows these open license agreements: 
 
-Images [CC-BY-NC-SA]: http://creativecommons.org/licenses/by-nc-sa/3.0/
-Data [CC-BY-SA]: http://creativecommons.org/licenses/by-sa/3.0/
-Open Database License 1.0: http://opendatacommons.org/licenses/odbl/1.0/
+- [Images [CC-BY-NC-SA]](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+- [Data [CC-BY-SA]](http://creativecommons.org/licenses/by-sa/3.0/)
+- [Open Database License 1.0](http://opendatacommons.org/licenses/odbl/1.0/)
+
 Via our API you can connect to open data sharing portals. Open data sharing can benefit the development sector and the general public at large. It encourages active use of valuable data, enables more connections and collaboration between practitioners and supports better decision-making by all. Akvo has a close collaboration with WPDx and you can share your data on their portal easily using Flow's API. If you are interested in sharing your data, contact us for more details.
 
 ## How does Akvo Flow handle my personal data?
-Below you can find some key points around our privacy policy and how we handle your personal data. Akvo Flow is GDPR compliant and continues to support you on following data protection regulations in the countries you capture data and implement the principles of responsible data management in your data collection projects. 
+Below you can find some key points around our privacy policy and how we handle your personal data. Akvo Flow is [GDPR compliant](http://akvo.org/help/akvo-policies-and-terms-2/gdpr/) and continues to support you on following data protection regulations in the countries you capture data and implement the principles of responsible data management in your data collection projects. 
 
-For our full Akvo Flow Privacy Policy please go here [link will be added once the latest Privacy Policy version is updated]. 
+For our full Akvo Flow Privacy Policy please go [here](https://akvo.org/akvo-flow-privacy-policy/). 
 
 
 
-If you are an Akvo Flow user:
-Your survey data is owned by you. Not only that, but the Akvo Foundation treats your surveys as if they were private (except if you have selected to add the surveys to the Akvo Flow’s public map). We don’t sell them to anyone and we don’t use the survey responses you collect for purposes unrelated to you or our services, except in a limited set of circumstances (e.g. if we are compelled by a subpoena, or if you’ve given us permission to do so).
-We safeguard collected data. The Akvo Foundation acts as a mere custodian of that data.
-We hold your data securely. Read our Security Statement for more information.
-Survey data is stored on servers located in the European Union. The Akvo Foundation will process your survey data on your behalf and under your instructions (including the ones agreed to in this privacy policy).
-Accessing and correcting your personal data. You have the right to access and correct the personal information that the Akvo Foundation holds about you. This right may be exercised by contacting gdpr@akvo.org.
-If you answer surveys:
-Surveys are administered by Akvo Flow Users. Akvo Flow Users conduct thousands of surveys each day using our services. We host the surveys on our websites and collect the responses that you submit to the survey creator. If you have any questions about a survey you are taking, please contact the survey creator directly as The Akvo Foundation is not responsible for the content of that survey or your responses to it. The survey creator is usually the organisation that invited you to take the survey and sometimes they have their own privacy policy.
-Are your responses anonymous? This depends on how the survey was created.  Contact the survey creator to find out.
-We don’t sell your responses to third parties. The Akvo Foundation doesn’t sell or share your survey responses with third party advertisers or marketers (although the survey creator might, so check with them). The Akvo Foundation merely acts as a custodian on behalf of the survey creator who controls your data, except as further described in this privacy policy with regard to surveys added to Akvo Flow’s public map.
-If you think a survey violates our Terms of Service or may be engaging in illegal activity, report it to privacy@akvo.org.
+### If you are an Akvo Flow user:
+- **Your survey data is owned by you**. Not only that, but the Akvo Foundation treats your surveys as if they were private (except if you have selected to add the surveys to the Akvo Flow’s public map). We don’t sell them to anyone and we don’t use the survey responses you collect for purposes unrelated to you or our services, except in a limited set of circumstances (e.g. if we are compelled by a subpoena, or if you’ve given us permission to do so).
+- **We safeguard collected data**. The Akvo Foundation acts as a mere custodian of that data.
+- **We hold your data securely**. Read our Security Statement for more information.
+- **Survey data is stored on servers located in the European Union**. The Akvo Foundation will process your survey data on your behalf and under your instructions (including the ones agreed to in this privacy policy).
+- **Accessing and correcting your personal data**. You have the right to access and correct the personal information that the Akvo Foundation holds about you. This right may be exercised by contacting gdpr@akvo.org.
+
+### If you answer surveys:
+- **Surveys are administered by Akvo Flow Users**. Akvo Flow Users conduct thousands of surveys each day using our services. We host the surveys on our websites and collect the responses that you submit to the survey creator. If you have any questions about a survey you are taking, please contact the survey creator directly as The Akvo Foundation is not responsible for the content of that survey or your responses to it. The survey creator is usually the organisation that invited you to take the survey and sometimes they have their own privacy policy.
+- **Are your responses anonymous?** This depends on how the survey was created.  Contact the survey creator to find out.
+- **We don’t sell your responses to third parties**. The Akvo Foundation doesn’t sell or share your survey responses with third party advertisers or marketers (although the survey creator might, so check with them). The Akvo Foundation merely acts as a custodian on behalf of the survey creator who controls your data, except as further described in this privacy policy with regard to surveys added to Akvo Flow’s public map.
+- If you think a survey violates our Terms of Service or may be engaging in illegal activity, report it to privacy@akvo.org.
 
 ## What access does Akvo staff have to my Flow instance?
 From April 2018 we updated our policy on how Akvo staff accesses Flow partner instances. This policy is based on the following principles: 
 
-Minimise access: Akvo staff has access to your Flow instance to support you in your work, to further develop Flow or to work together with you on collaborative projects. We ensure that, if we have access to your instance then it is for a specific reason. Once an Akvo staff member does not need to access it anymore, we have mechanisms in place to ensure her removal. 
-Transparency: In the User list on your Flow instance you can see who has access to what and what level of permissions. This applies also to Akvo staff who are visible in your user list. 
-You are in control: You are the owner of a Flow instance and of the data captured with Flow. We are here to help and support you on your data journey. Thus if you feel Akvo staff should not have a certain level of access or should have no access at all, you are free to remove us from the instance.
-This policy follows our Akvo privacy policy and data handling policy and Akvo Flow terms of use. We are also actively working on ensuring compliance with the General Data Protection Regulation, a new European law aimed at further securing the protection of personal data. 
+- **Minimise access**: Akvo staff has access to your Flow instance to support you in your work, to further develop Flow or to work together with you on collaborative projects. We ensure that, if we have access to your instance then it is for a specific reason. Once an Akvo staff member does not need to access it anymore, we have mechanisms in place to ensure her removal. 
+- **Transparency**: In the User list on your Flow instance you can see who has access to what and what level of permissions. This applies also to Akvo staff who are visible in your user list. 
+- **You are in control**: You are the owner of a Flow instance and of the data captured with Flow. We are here to help and support you on your data journey. Thus if you feel Akvo staff should not have a certain level of access or should have no access at all, you are free to remove us from the instance.
+This policy follows our [Akvo privacy policy and data handling policy](http://akvo.org/help/akvo-policies-and-terms-2/akvo-privacy-policy/) and [Akvo Flow terms of use](http://akvo.org/help/akvo-policies-and-terms-2/akvo-flow-terms-of-use/). We are also actively working on ensuring compliance with the [General Data Protection Regulation](http://akvo.org/help/akvo-policies-and-terms-2/gdpr/), a new European law aimed at further securing the protection of personal data. 
 
-
-
-Akvo staff access 
+### Akvo staff access 
 All Akvo staff access your instance with their akvo.org email account. We are clearly marked by 'Akvo - [name]'. We have three levels of access to your Flow instance:
 
-Akvo support team - our support team has limited access to your instance (no delete permissions and no user management rights) to be able to respond to your questions and requests. 
-Akvo admin - your account manager has full access to your instance to support you in using the tool, collaborate on projects and be to any assistance you need. 
-Akvo development team - our development team has access to your instance from the 'back door' to be able to further maintain, develop, and keep the software up and running. You will not see the Akvo development team members in your user list. 
+- **Akvo support team** - our support team has limited access to your instance (no delete permissions and no user management rights) to be able to respond to your questions and requests. 
+- **Akvo admin** - your account manager has full access to your instance to support you in using the tool, collaborate on projects and be to any assistance you need. 
+- **Akvo development team** - our development team has access to your instance from the 'back door' to be able to further maintain, develop, and keep the software up and running. You will not see the Akvo development team members in your user list. 
 
-
+![Akvo staff access](media/faq_access.png)
 
 Your instance will always have the Akvo admin assigned to your instance and this person is your Akvo contact person. You will also have some Akvo support team members assigned to your instance to be able to quickly support you in using Flow. 
 
-
-
-Managing Akvo staff access 
+### Managing Akvo staff access 
 You have the full right to remove any Akvo staff members from your instance at any time.
 
 Furthermore, the Akvo admin is the one responsible for the access of other Akvo staff members to your instance. She can add other Akvo staff users to your instance, only if you agree to it. Furthermore, the user access will only be given to the survey and data needed to perform the task we agreed on and the role will only hold the permissions needed for this task. She will make sure to remove the staff user from the instance once the task is completed. 
@@ -128,33 +126,35 @@ If a Akvo staff member should no longer have access to your instance due to term
 ## Akvo Flow Policies and Terms
 Here is a list of Policies we have for Akvo Flow: 
 
-Akvo Flow General Terms and Conditions
-Akvo Flow Terms of Use
-Akvo Flow Privacy Policy (We are currently updating this policy to ensure GDPR compliance. A link will be available shortly)
-Akvo Data Processing Agreement 
-Akvo Flow API code of conduct
-Akvo staff access to your Flow instance
-For more Akvo policies go to Akvo Policies and Terms on our website. 
+- [Akvo Flow General Terms and Conditions](http://akvo.org/help/akvo-policies-and-terms-2/akvo-general-terms-and-conditions/exhibit-a-akvo-flow-services-and-support-terms-and-conditions/)
+- [Akvo Flow Terms of Use](http://akvo.org/help/akvo-policies-and-terms-2/akvo-flow-terms-of-use/)
+- [Akvo Flow Privacy Policy](https://akvo.org/akvo-flow-privacy-policy/)
+- [Akvo Data Processing Agreement](http://akvo.org/help/akvo-policies-and-terms-2/akvo-data-processing-agreement/) 
+- [Akvo Flow API code of conduct](http://akvo.org/help/api-code-of-conduct/)
+- [Akvo staff access to your Flow instance](http://flowsupport.akvo.org/article/show/56607-what-access-does-akvo-staff-have-to-my-flow-instance)
+
+
+For more Akvo policies go to [Akvo Policies and Terms](http://akvo.org/help/akvo-policies-and-terms-2/) on our website. 
 
 ## How can I verify my account?
 Have you signed up to our tools and now when accessing them you see this page? This means you did not verify your account. To verify your account, you need to click on a the link sent to your email. 
 
-Did not receive the verification email?  
+### Did not receive the verification email?  
 Check your spam inbox. The email maybe landed there. 
 
+![How can I verify my account?](media/faq_access.png)
 
-
-I clicked on the verification link, but I still see that page when logging in.
+### I clicked on the verification link, but I still see that page when logging in.
 If you signed up to our tools and only later verified your account, there is a chance the verification link expired. The link is only active for two weeks. No worries, the moment you try to login with an account that is not verified yet, we send you automatically the verification email again. 
 
-To verify your account: 
+#### To verify your account: 
 
-Log in using the email and password you chose during the set up process. 
-Now you should see the page above that tells you your account is not verified. 
-Go to your email inbox and open the new verification email you just received. 
-Click on the new verification link. 
-Open Akvo Flow or Akvo Lumen again and log in.
-Your account is now verified and you can access the to tools. 
+1. Log in using the email and password you chose during the set up process. 
+2. Now you should see the page above that tells you your account is not verified. 
+3. Go to your email inbox and open the new verification email you just received. 
+4. Click on the new verification link. 
+5. Open Akvo Flow or Akvo Lumen again and log in.
+6. Your account is now verified and you can access the to tools. 
 
 ## Can I reuse an Akvo Flow survey which I have on one Flow instance on another one?
 Do you want to use a survey you have on one Akvo Flow instance on another one? Do you want to share your standardised survey with your partners to collect data on their own Akvo Flow space? Do you want to use the survey you have on our pilot Flow space on your own Akvo Flow space?
@@ -163,8 +163,8 @@ This is all possible. If you are a user on both Flow instances, our support team
 
 Please keep in mind, that when recreating a survey on another Flow space we do not copy over:
 
-translations of the original survey
-cascades that are added to the original survey
+- translations of the original survey
+- cascades that are added to the original survey
 
 ## How can I update the names of my data points?
 A data point contains all the information collected for a particular something, such as a water point, school, or farmer. Some data points hold more than one form, and all the filled forms are part of the same data point.
@@ -174,16 +174,17 @@ Each data point has a name created based on answers to selected questions. The n
 
 After the data is submitted many times data cleaning needs to take place, or your realise that the questions selected to build the data point name do not make it easy to identify particular points. For monitoring data collection exercises it is vital to be able to select a specific point and collect more data for it.
 
-How to change the name of your data point?
+### How to change the name of your data point?
 
 There are a few ways you can change the name of an already existing point:
 
-In the survey definition select different questions to build the data point name
-Edit the submitted answers via data cleaning
-Edit the answers in the online space when viewing your submitted forms
+1. In the survey definition select different questions to build the data point name
+2. Edit the submitted answers via data cleaning
+3. Edit the answers in the online space when viewing your submitted forms
+
 In order to trigger the data point name change, you need to resynchronise the points on the app. After re-synchronising the points, the point name will be updated and changes also in the online space and in your reports.
 
-It is only possible to update the data point names for monitoring surveys. For more information on data points check this article explaining how data points work on the Flow app.
+It is only possible to update the data point names for monitoring surveys. For more information on [data points](data.md) check this article explaining how data points work on the Flow app.
 
 ## Can I copy a form inside the same survey?
 It is not possible to copy a form inside the same survey. 
@@ -196,18 +197,20 @@ In the Akvo Flow online space to delete something such as a survey or even a fol
 
 So if you want to delete a folder you need to:
 
-delete the data collected for the forms in the survey in the folder
-delete the forms in the survey in the folder
-delete the survey
-delete the folder
+1. delete the data collected for the forms in the survey in the folder
+2. delete the forms in the survey in the folder
+3. delete the survey
+4. delete the folder
+   
 In order to follow these steps you need to have the required permissions to do so.
 
 ## Why is my report not displaying the latest collected data?
 Generating a (comprehensive) report is an intense task for the servers. To reduce processing tasks and data traffic we have build in a 'caching' system which basically saves the last report you generated. Great if you want to re-download it, but not if you want to have a report with the latest data points.
 
-To generate a report with the latest data points, in which period you collected the data. This will trigger a brand new report.
-New reports will be send to your (g)mail whereas cached reports will be downloaded right away.
+- To generate a report with the latest data points, in which period you collected the data. This will trigger a brand new report.
+- New reports will be send to your (g)mail whereas cached reports will be downloaded right away.
 
+![Why is my report not displaying the latest collected data?](media/faq_report_export.png)
 
 ## Can I delete data via data cleaning?
 No, due to safety reasons this is not possible. If you would for example upload an empty Excel file back to the system this would remove all your data points.
@@ -225,40 +228,42 @@ No, this is not possible at this moment.
 ## Can I import data to a registration form?
 Yes, you can. With Akvo Flow's Data cleaning feature you can also import new data that you have captured on paper of with another data collection tool. 
 
-To read more on how to import data check this article explaining all the steps you need to take and what to keep in mind when doing so. 
+To read more on how to import data check [this](data.md) article explaining all the steps you need to take and what to keep in mind when doing so. 
 
 ## Why doesn't my cascade resource import?
 Using the import function of the cascading resource can help you save great amount of time. There are some things to keep in mind though.
 
 The file itself:
 
-Should be a .csv format
-Should not contain a header (so make sure you start with the actual data)
-If you are using codes, every cascade value should have it's own unique code.
-Common mistakes
-Cascade containing duplicates
+- Should be a .csv format
+- Should not contain a header (so make sure you start with the actual data)
+- If you are using codes, every cascade value should have it's own unique code.
+
+#### Common mistakes
+
+#### Cascade containing duplicates
 
 The system will tell you that the import of the cascade has failed. Often this is caused by a duplicated value in the cascade.
 
+![Cascade containing duplicates](media/faq_cascades_duplicates.png)
+
+If the lowest level contains an unique code it is easy to find the duplicates with Excel using the find [duplicates feature](http://www.excel-easy.com/examples/find-duplicates.html). If this is not the case, it's recommended to create another column where you merge the cascade without the codes. This way you can find the duplicates based on the last column, avoiding not finding any duplicates as the code of the lowest level might be unique.
+
+Once you have found the duplicate and you are sure these can be removed, use the remove [duplicates feature](http://www.excel-easy.com/examples/find-duplicates.html).
+
+![Cascade containing duplicates](media/faq_cascades_remove_duplicates.png)
+
+#### Codes are not unique
+In some cases the codes are used for different values. If you are not sure if this is set-up correct in your file, you can use the [Vlookup function](http://www.gcflearnfree.org/excel-tips/how-to-use-excels-vlookup-function). While doing this you need a sheet where all the codes per cascade value are defined.
+
+![Cascade Codes are not unique](media/faq_cascades_codes.png)
 
 
-If the lowest level contains an unique code it is easy to find the duplicates with Excel using the find duplicates feature. If this is not the case, it's recommended to create another column where you merge the cascade without the codes. This way you can find the duplicates based on the last column, avoiding not finding any duplicates as the code of the lowest level might be unique.
 
-Once you have found the duplicate and you are sure these can be removed, use the remove duplicates feature.
-
-
-
-Codes are not unique
-In some cases the codes are used for different values. If you are not sure if this is set-up correct in your file, you can use the Vlookup function. While doing this you need a sheet where all the codes per cascade value are defined.
-
-
-
-
-
-The file contains header rows
+#### The file contains header rows
 Uploading the file with header rows will break the import.
 
-
+![The file contains header rows](media/faq_cascades_headers.png)
 
 For more information on this topic please have a look at the cascade resources tab.
 

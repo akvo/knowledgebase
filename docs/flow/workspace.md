@@ -6,14 +6,14 @@ The Akvo Flow online workspace is the web-based location where we support you ac
 
 The Flow online workspace is made up a series of pages. The first page you see after you log in is the Surveys tab. The top bar menu helps you navigate across all the pages:
 
-- Surveys: Surveys are the centrepiece of Flow. Create, edit and publish surveys from the Surveys tab.
-- Devices: In the Devices tab you manage the devices connected to capture data.
-- Data: The Data tab is where you can view, edit, export, import and clean data collected with Flow surveys.
-- Resources: The Resources tab holds your cascades, as they act as a resource you can create and re-use in any Flow form. 
-- Maps: The map on your Flow's online space shows the surveys collected with a GPS location as points on a map.
-- Users: Here is where you manage your users and their permissions.
-- Messages: The Messages tab lists messages related to activity with surveys and data processing activity.
-- Stats: Do you want to know how many submissions were made to each form you have on Flow, or how many folders, surveys and forms you have? The - Stats page creates a an overview sheet with all the details. 
+- [Surveys](surveys.md): Surveys are the centrepiece of Flow. Create, edit and publish surveys from the Surveys tab.
+- [Devices](devices.md): In the Devices tab you manage the devices connected to capture data.
+- [Data](data.md): The Data tab is where you can view, edit, export, import and clean data collected with Flow surveys.
+- [Resources](resources.md): The Resources tab holds your cascades, as they act as a resource you can create and re-use in any Flow form. 
+- [Maps](maps.md): The map on your Flow's online space shows the surveys collected with a GPS location as points on a map.
+- [Users](users.md): Here is where you manage your users and their permissions.
+- [Messages](messages.md): The Messages tab lists messages related to activity with surveys and data processing activity.
+- [Stats](stats.md): Do you want to know how many submissions were made to each form you have on Flow, or how many folders, surveys and forms you have? The Stats page creates a an overview sheet with all the details. 
 
 Access to each tool menu is limited by permissions so not all functions will be available to all users.
 

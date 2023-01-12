@@ -1,3 +1,6 @@
+
+![type:video](https://www.youtube.com/embed/PJOJNBiO1kI)
+
 # Before you start
 ## Minimum device requirements
 To run Akvo Flow app, your phone must meet the following hardware and software specifications:
