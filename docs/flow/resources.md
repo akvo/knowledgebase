@@ -103,46 +103,46 @@ A score is based on a combination of answers to questions. It can be in the form
 
 Usually you first capture your data in the field and later analyse it to calculate one’s score based on the pattern and logic you have in place. But did you know there is a better way to do it?  You can add the pattern of your scoring logic directly in your questionnaire. The benefits of taking this second approach are:
 
-Save time - without having to go back to the office and analysing the data, you know the score of your interviewee right away.
+- Save time - without having to go back to the office and analysing the data, you know the score of your interviewee right away.
+- Take direct action - because you learn your interviewee's score on the spot, you can share advice, ask targeted follow up questions, or take other steps based on your programme.
+- Share information with those involved  - by knowing your interviewee’s score on the spot you can share the learning with them and thus the data brings information to all involved effortlessly.  
 
-Take direct action - because you learn your interviewee's score on the spot, you can share advice, ask targeted follow up questions, or take other steps based on your programme.
-
-Share information with those involved  - by knowing your interviewee’s score on the spot you can share the learning with them and thus the data brings information to all involved effortlessly.  
-
-How can you add a scoring pattern to your Akvo Flow survey?
+#### How can you add a scoring pattern to your Akvo Flow survey?
 
 
 
 You can add your scoring pattern in Akvo Flow by using our cascade resources feature. Create a scoring pattern as a cascade and simply add it into your survey form as another question.
 
+```
 Cascade level = Question that builds up the score  
 Levet title = Question text
 
 Cascade options = Question options
 
+```
 
 
 When submitting data in the Flow app the cascade holding your scoring pattern stands as one question, that consist of multiple linked questions. After the interviewee answers the first question (picks an option from the first cascade level), the following question is shown. The options to this second question depend on the selected answer to the first question. The pattern continues until the interviewee reaches her score. The last question (the last level of the cascade) holds the pre-defined end score. The last question shows only one option for the interviewee to confirm, the score itself.
 
 
 
+![Using predefined scores](media/cascades_predefined_score.png)
+*Partial example of how the cascade scoring pattern will show on the Flow app*
 
-Partial example of how the cascade scoring pattern will show on the Flow app
 
-
-The score is a chain of options linked together
+#### The score is a chain of options linked together
 With the current structure of cascades the interviewee must choose her answer from a set of options. So you need to create the scoring pattern in a way that it gives the interviewee options to pick from. The calculation of the score is basically a chain of options linked together. You can define these chains either in Excel and then import the csv file to Flow’s editor, or you can create your scoring pattern directly in Flow.
 
 A cascade resource can be used across multiple survey forms. So even though it may take more time to adjust your scoring pattern and to create the structure in Flow, you can re-use it in multiple survey forms and learn the score while collecting your data.  
 
 
 
-The score is part of your data set
+#### The score is part of your data set
 After the form is submitted, all the answers the interviewee selected as part of the scoring pattern are saved together with the score. The score is simply part of your data set as all other submitted answers for that form. In the Flow online workspace you will see all the selected options and the score as part of the answer to the question holding the cascade resource.
 
 
-
-Example of a submission holding all the selected answers including the score
+![Using predefined scores](media/cascades_submission.png)
+*Example of a submission holding all the selected answers including the score*
 
 In your data export, all answers will be shown in one cell. If you export the data using the Advanced settings export feature, each question of the scoring pattern (each level of the cascade) will be shown in a separate column. The last column on the cascade scoring pattern holds the score.
 
@@ -150,13 +150,13 @@ In your data export, all answers will be shown in one cell. If you export the da
 Example of data exported using Advanced settings. Each question (cascade level) is in a separate column with the question text (level title) in the top row and with all the selected answers including the score
 
 
-Some examples from our partners
+#### Some examples from our partners
 Here you can see two examples of cases where our partners used the cascade structure to reach to a numerical score evaluating the state of farm management pre-harvest and to evaluate the level of malnourishment of a child.  
 
 
 
 Cascade resource to indicate the score of farm management pre-harvest based on the open Standard on Sustainable Rice Cultivation
-Following the Standard on Sustainable Rice Cultivation Mars Food used Flow’s cascade resources to create a scoring pattern to evaluate a farm’s management pre-harvest. The score is based on three different questions. The farmer must with each question select one answer. The combination of selected answers is then reflected in the end score.
+Following the Standard on [Sustainable Rice Cultivation](http://www.unep.org/roap/Portals/96/SRP_Standard_FINAL.pdf) Mars Food used Flow’s cascade resources to create a scoring pattern to evaluate a farm’s management pre-harvest. The score is based on three different questions. The farmer must with each question select one answer. The combination of selected answers is then reflected in the end score.
 
 
 Scoring pattern to evaluate farm management pre-harvest consisting of 3 questions (cascade levels 1-3) and a final score (level 4)

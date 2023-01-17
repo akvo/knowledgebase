@@ -1,13 +1,13 @@
 ## Request to join an organisation
 
-### Registering as a user on RSR
+## Registering as a user on RSR
 Log into [http://rsr.akvo.org/en/register/](http://rsr.akvo.org/en/register/) and complete the details as shown below
 
 ![Request to join an organisation](media/registration.png)
 
 After filling in the correct information, you will automatically see a confirmation screen. The next step is to confirm your e-mail adres via the e-mail we sent you.
 
-### Activate e-mail
+## Activate e-mail
 By clicking on the link in the e-mail you will activate your account. If you still have not received an e-mail after 5 minutes please check your spam folder.
 
 Requesting to join an organisation
@@ -83,7 +83,7 @@ Once on the User Managment page search for the appropriate user:
 
 
 
-When the user has been found click 'Restrict access'. 
+When the user has been found click *'Restrict access'*. 
 
 
 
@@ -99,7 +99,7 @@ If you want to grant the user access to all projects, simply uncheck the top box
 
 
 
-To grant or restrict access to a project for a user that has had the PAR already enabled, find the user by searching in User Management and click 'Edit access': 
+To grant or restrict access to a project for a user that has had the PAR already enabled, find the user by searching in User Management and click *'Edit access'*: 
 
 
 
@@ -117,51 +117,27 @@ Similarly, programmes with many partners (e.g. large programmes) can mean that t
 
 
 
-Step 1: User Access for a project is done via section 3 of the Editor
+**Step 1:** User Access for a project is done via section 3 of the Editor
 
 
 
 
-Step 2: From section 3, scroll down to go to User Access section and click ‘Restricted Access’
+**Step 2:** From section 3, scroll down to go to User Access section and click *‘Restricted Access’*
 
 
 
 
-Step 3: Once you activated the feature, add users that should have access to the project by clicking ‘Add user’
+**Step 3:** Once you activated the feature, add users that should have access to the project by clicking *‘Add user’*
+
+
+**Step 4:** You can search for registered users for your organisation and also users for the project’s partners.
+
+
+**Step 5:** Users added to a project retain the role assigned to them by their RSR administrator when they’ve first registered with RSR. However, a user's role can be changed for particular projects. For example, a user can have a *‘default’* role of M&E Manager, but a for a particular project they could be assigned the role of *‘Enumerator’*.
 
 
 
-
-Step 4: You can search for registered users for your organisation and also users for the project’s partners.
-
+**Step 6:** Review and confirm the users granted access for your project directly from section 3
 
 
-
-
-
-
-Step 5: Users added to a project retain the role assigned to them by their RSR administrator when they’ve first registered with RSR. However, a user's role can be changed for particular projects. For example, a user can have a ‘default’ role of M&E Manager, but a for a particular project they could be assigned the role of ‘Enumerator’.
-
-
-
-
-
-
-Step 6: Review and confirm the users granted access for your project directly from section 3
-
-
-
-
-
-
-Step 7: You can also see which users have access to a project directly from the ‘My Projects’ page. 
-
-
-
-
-
-
-
-
-
-
+**Step 7:** You can also see which users have access to a project directly from the ‘My Projects’ page. 

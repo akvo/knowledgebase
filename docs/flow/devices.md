@@ -14,7 +14,6 @@ In the Devices list you can see a lot of information about your devices:
 The most important items are the Device ID, Last contact and version. If your device is without an ID, ask the enumerator to update her Flow app to the latests version. 
 
 
-
 ## Managing device groups
 Device groups allow you to organise the all devices attached to your Flow online space into smaller groups, so that when you create Assignments you can select a device group instead of having to select the devices individually. Each device can belong to only one device group. You do not have to put a device in a group. 
 
