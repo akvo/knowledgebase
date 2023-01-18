@@ -3,7 +3,7 @@ How to add an RSR update via the website:
 
 Follow the steps below to add an update to your online project page in Akvo RSR:
 
-1. You can access your project(s) via [rsr.akvo.org](rsr.akvo.org) or via your Akvo Page.
+1. You can access your project(s) [here](https://rsr.akvo.org) or via your Akvo Page.
 2. Use the 'Advanced filter' to search for your organisation and active projects.
 3. Once you've opened your project from My projects and depending on the role that has been assigned to you find and open the Updates tab
 4. From  here you can Add an update on the left side of the screen. Updates can include photos and videos. The recommended maximum file size is 2MB. We can recommend using https://compressor.io/ in case you want to compress your image.

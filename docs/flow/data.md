@@ -493,7 +493,7 @@ Sometimes you might want to remove a set of answers in a repeated group of quest
 ### Is it possible to delete a form submission?
 It is not possible to delete a form submission via data cleaning. This is to make sure, that if you, by accident, remove a row in your excel sheet, you will not loose your data. 
 
-To delete a form submission you can do so in the Inspect data tab, if you have the permissions to delete data. If you need any help with your data cleaning and import, please feel free to contact us via **support@akvoflow.org**.
+To delete a form submission you can do so in the Inspect data tab, if you have the permissions to delete data. If you need any help with your data cleaning and import, please feel free to contact us via <support@akvoflow.org>
 
 
 ## Bulk upload data

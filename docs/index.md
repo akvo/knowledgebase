@@ -6,13 +6,13 @@ Our team is eager to assist you. If you need help getting started, find a bug, o
 
 Should you want to report a bug, request a feature, or simply want to talk, use our contact form
 
-### Please select a product to continue
+<!-- ### Please select a product to continue
 
 ## [RSR](rsr/index.md)
 
 ## [FLOW](flow/index.md)
 
-## [LUMEN](lumen/index.md)
+## [LUMEN](lumen/index.md) -->
 
 <!-- ![alt text](img/rsr-logo.jpg)
 

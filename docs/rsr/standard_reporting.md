@@ -34,13 +34,13 @@ Organization reports are designed to give Administrators and M&E managers an ove
 
 If you happen to be the administrator of more than one organization, you would first need to select the organization for which you would like to download a report. 
 
-### Data quality overview
+## Data quality overview
 Data quality overview:  this report gives an overview of your organisation's projects that have passed the planned end date, need funding or that haven't been edited or updated for 3 months.
 
-### Results and Indicators Export: 
+## Results and Indicators Export: 
 Results and Indicators Export: An export of the results and indicators data for all of the projects within your organisation.
 
-### Projects overview:
+## Projects overview:
 Projects overview: This report provides information about your organisation's projects: amount of updates, country, total budgets, project statuses, start- and end dates.
 
 Reports can be exported in PDF and/or Excel, depending on the report. To export an organization report, simply select the type of report you would like to download.

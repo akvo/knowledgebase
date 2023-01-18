@@ -9,6 +9,9 @@ plugins:
 #   name: null
 #   custom_dir: mkdocs_docskimmer
 
+# theme:
+#   name: material
+
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
 
 i18n:
