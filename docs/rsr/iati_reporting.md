@@ -36,7 +36,9 @@ Akvo RSR makes it extremely easy to add and regularly update your IATI files in 
 
 There are requirements to the file format and data in IATI xml files. A simple example is that every IATI activity (project) must have a [unique IATI identifier](http://iatistandard.org/203/activity-standard/iati-activities/iati-activity/iati-identifier/#definition), which you can enter in the Akvo RSR project editor. You can check your file by using the [IATI validator tool](http://validator.iatistandard.org/index.php). You can use 'fetch file from web' and paste the IATI activity link from Akvo RSR. Then you can test 1. if the xml code is well structured and (important to also click): 2. validate the file against the IATI schema. Any issues need to be solved in the Akvo RSR project editor or in the Results tab. 
 
-When you are obliged to publish IATI data for the Netherlands Ministry of Foreign Affairs, you can check your compliance using a [custom dashboard](http://public.tableau.com/views/METIS2/Publisheroverview?amp%3B%3AshowVizHome=no&%3Aembed=y&%3Atabs=yes&%3Arender=false) which includes if the files loaded correctly and what the last date of changes were. The data is loaded once a day and only when data is validated successfully (see validation above) it will be loaded. Nb. The publication guidelines by the Netherlands Ministry of Foreign Affairs can be found [here](http://www.government.nl/documents/publications/2015/12/01/open-data-and-development-cooperation).
+When you are obliged to publish IATI data for the Netherlands Ministry of Foreign Affairs, you can check your compliance using a [custom dashboard](http://public.tableau.com/views/METIS2/Publisheroverview?amp%3B%3AshowVizHome=no&%3Aembed=y&%3Atabs=yes&%3Arender=false) which includes if the files loaded correctly and what the last date of changes were. The data is loaded once a day and only when data is validated successfully (see validation above) it will be loaded. 
+
+**NB:** The publication guidelines by the Netherlands Ministry of Foreign Affairs can be found [here](http://www.government.nl/documents/publications/2015/12/01/open-data-and-development-cooperation).
 
 
 

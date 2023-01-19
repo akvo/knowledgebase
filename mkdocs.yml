@@ -1,18 +1,76 @@
-site_name: Akvo Knowledgebase
+site_name: Knowledgebase
 repo_url: https://github.com/akvo/knowledgebase
 
 plugins:
-  - search
+  - tags
+  - search:
+      boost: 2
+      lang: 
+        - en
+        - fr
+        - es
+
   - mkdocs-video
 
 # theme:
 #   name: null
 #   custom_dir: mkdocs_docskimmer
-
-# theme:
-#   name: material
+theme:
+  name: material
+  logo: img/logo1.png
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+  palette:
+    scheme: default
+    primary: black
+    # scheme: default
+    #   toggle:
+    #     icon: material/brightness-7 
+    #     name: Switch to dark mode
+    # scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
 
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<support@akvo.org>
+    - icon: fontawesome/brands/github
+      link: https://github.com/akvo
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
+    - name: Spanish
+      link: /es/
+      lang: es
+  # analytics: 
+  #   feedback:
+  #     title: Was this page helpful?
+  #     ratings:
+  #       - icon: material/emoticon-happy-outline
+  #         name: This page was helpful
+  #         data: 1
+  #         note: >-
+  #           Thanks for your feedback!
+  #       - icon: material/emoticon-sad-outline
+  #         name: This page could be improved
+  #         data: 0
+  #         note: >- 
+  #           Thanks for your feedback! Help us improve this page by
+  #           using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
 
 i18n:
   - name: French
