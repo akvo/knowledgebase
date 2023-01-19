@@ -1,10 +1,14 @@
 site_name: Knowledgebase
 repo_url: https://github.com/akvo/knowledgebase
 
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+
 plugins:
   - tags
   - search:
-      boost: 2
       lang: 
         - en
         - fr

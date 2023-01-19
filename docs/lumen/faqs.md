@@ -11,7 +11,7 @@ To be able to analyse data from multiple answer questions effortlessly, we intro
 ![How can I analyse data from multiple answer questions](media/option.png)
 
 
-### Data type - Option
+## Data type - Option
 The data type - Option is applied on columns from a Akvo Flow dataset, that hold data from option question. It is automatically applied on both single select answer question data and also multiple answer question data. This data type makes it easy to analyse multiple option questions as Lumen automatically groups the options in the variety of graphs and maps you can use for analysis. 
 
 
