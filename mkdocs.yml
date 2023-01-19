@@ -36,6 +36,9 @@ theme:
     #     icon: material/brightness-4
     #     name: Switch to light mode
 
+extra_javascript:
+  - javascripts/extra.js
+
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
 
 extra:
@@ -45,6 +48,8 @@ extra:
       link: mailto:<support@akvo.org>
     - icon: fontawesome/brands/github
       link: https://github.com/akvo
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@Akvofoundation
   alternate:
     - name: English
       link: /
