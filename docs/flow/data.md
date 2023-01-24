@@ -420,7 +420,7 @@ How can you connect the registration data to the data captured over time with th
 
 Another option is to use Excel and match two data files based on the shared unique identifier (Identifier column). This uses the VLOOKUP function, as described in this article and this instruction movie. 
 
-If you need help in implementing this, please contact us as [support@akvoflow.org](support@akvoflow.org)
+If you need help in implementing this, please contact us as <support@akvoflow.org>
 
 
 

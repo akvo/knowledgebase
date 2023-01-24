@@ -142,5 +142,5 @@ nav:
     - 'Working with FLOW data': 'lumen/flow_data.md'
     - 'User management': 'lumen/user_management.md'
     - 'FAQs': 'lumen/faqs.md'
-  - CONTACTS: 'contact.md'
+  ## - CONTACTS: 'contact.md'
 
