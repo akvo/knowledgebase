@@ -42,6 +42,7 @@ theme:
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/reamaze.js
 
 piwik: 6ff13965-650f-49d6-8a20-a2c7b7c4c4d9
 
@@ -142,5 +143,5 @@ nav:
     - 'Working with FLOW data': 'lumen/flow_data.md'
     - 'User management': 'lumen/user_management.md'
     - 'FAQs': 'lumen/faqs.md'
-  ## - CONTACTS: 'contact.md'
+  - CONTACTS: 'contact.md'
 
