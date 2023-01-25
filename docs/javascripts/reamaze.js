@@ -18,7 +18,7 @@ var _support = _support || { 'ui': {}, 'user': {} };
       'hub': {
         pos: 1674543042741,
         type: 'dropdown',
-        value: ['Europe','East-Africa','West-Africa','Americas','Asia','South-East Asia and Pacific'],
+        value: ['Europe','East-Africa','West-Africa','Asia','Americas','South-East Asia and Pacific'],
         required: true,
         placeholder: 'Which hub do you usually work with?',
         defaultValue: 'undefined',
@@ -38,5 +38,23 @@ var _support = _support || { 'ui': {}, 'user': {} };
         required: false,
         placeholder: 'Which product do you need help with?',
         defaultValue: 'undefined',
+      },
+      'instance': {
+        pos: 1674626129078,
+        type: 'text',
+        value: '',
+        required: false,
+        placeholder: 'What is the name of your Akvo Flow instace? (xxx.akvoflow.org))',
+        dependantField: 'product',
+        dependantOptions: ['FLOW'],
+      },
+      'survey': {
+        pos: 1674626232341,
+        type: 'text',
+        value: '',
+        required: false,
+        placeholder: 'What is the name of the folder and the survey?',
+        dependantField: 'product',
+        dependantOptions: ['FLOW'],
       }
   };
