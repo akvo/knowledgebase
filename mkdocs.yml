@@ -60,10 +60,10 @@ extra:
       link: /
       lang: en
     - name: French
-      link: /fr/
+      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=fr
       lang: fr
     - name: Spanish
-      link: /es/
+      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=es
       lang: es
   # analytics: 
   #   feedback:
