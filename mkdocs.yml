@@ -55,16 +55,6 @@ extra:
       link: https://github.com/akvo
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@Akvofoundation
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: French
-      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=fr
-      lang: fr
-    - name: Spanish
-      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=es
-      lang: es
   # analytics: 
   #   feedback:
   #     title: Was this page helpful?

@@ -1,0 +1,14 @@
+INHERIT: mkdocs.yml # https://www.mkdocs.org/user-guide/configuration/#configuration-inheritance
+
+extra:
+  # Translations are handled by Google Translate
+  alternate:
+    - name: English
+      link: https://kb.akvo.org
+      lang: en
+    - name: French
+      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=fr
+      lang: fr
+    - name: Spanish
+      link: https://kb-akvo-org.translate.goog/?_x_tr_sl=auto&_x_tr_tl=es
+      lang: es
