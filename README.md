@@ -24,3 +24,6 @@ To have a preview and check that everything is alright, you will need to setup a
 You can use `mkdocs serve -f mkdocs.prod.yml` to see what it'll look like.
 
 [Akvo]: https://akvo.org
+
+
+# [License](LICENSE.md)

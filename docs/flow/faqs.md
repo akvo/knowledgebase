@@ -523,27 +523,27 @@ Have you collected data offline with Flow app version 2.4.8 or older and you wan
 
 
 
-1) Connect device to your PC
+**1) Connect device to your PC**
 Connect the device to a computer using a USB cable. (For some devices you might need to use the MTP, Media Transfer Protocol, protocol.)
 
 
 
-2) Find the folder with submissions
+**2) Find the folder with submissions**
 Open the file system of your device on your computer. Open the akvoflow folder. Here you will see the data folder. This folder hold the submitted data in separate zip files and the photos and videos submitted.
 
 
 
-3) Copy the data folder to your PC
+**3) Copy the data folder to your PC**
 Copy the entire data folder to your computer. You do not need to open this folder and copy its files separately. Simply copy the complete data folder.
 
 
 
-4) Zip the data folder
+**4) Zip the data folder**
 Now make a zip file out of the full data folder. This is an important step as Flow will not allow you to import a different file type than .zip. 
 
 
 
-6) Bulk upload the zip file
+**5) Bulk upload the zip file**
 Open your Flow instance and go to the Data tab. Here you will find the Bulk upload data tab. Drop the zip file here. Once you see a green tick next to your file, your data has been successfully uploaded to the correct form.
 
 Please note the on your Flow instance you will see instructions in the Bulk upload data tab on how to prepare and upload data collected offline. These instructions are only for user uploading data from Flow app version 2.5.0 and newer. We highly recommend to update your Flow app to the latest available version. 
@@ -558,72 +558,56 @@ This change affects how you bulk upload data. In this article we first share wit
 
 
 
-Bulk uploading data
+### Bulk uploading data
 Have you collected data offline and you want to bulk upload it to your Flow instance? Here are the steps you need to do to bulk upload your data:
 
 
 
-1) Publish the data on the app.
+**1) Publish the data on the app.**
 To upload the submissions made offline to your Flow instance you first need to publish the data. This will make a copy of all the submitted data you have on the Flow app. This copy will be available in a public folder, that you can access via your PC. The data will be available in the public folder for only 90 minutes. Then they will be automatically removed from the public folder to ensure your data is always secure.
 
 To publish data go to Settings on your Flow app and under the Data section hit Publish data. Now you have 90 minutes to complete the next step.
 
 
-
-
-2) Connect device to your PC
+**2) Connect device to your PC**
 Your submitted data is now copied over to a public folder. Connect your device to your PC with a USB cable. (For some devices you might need to use the MTP, Media Transfer Protocol, protocol.)
 
 
 
-3) Find the folder with submissions
+**3) Find the folder with submissions**
 Open the file system of your device on your computer. Open the Android folder. Open the data folder. Open the org.akvo.flow folder. Open the files folder. Here you will see the published folder. This folder hold the submitted data in separate zip files and the photos and videos submitted.
 
 
-
-
-4) Copy the published folder to your PC
+**4) Copy the published folder to your PC**
 Copy the entire published folder to your computer. You do not need to open this folder and copy its files separately. Simply copy the complete published folder.
 
 
-
-5) Zip the published folder
+**5) Zip the published folder**
 Now make a zip file out of the full published folder. This is an important step as Flow will not allow you to import a different file type than .zip. 
 
 
-
-6) Bulk upload the zip file
+**6) Bulk upload the zip file**
 Open your Flow instance and go to the Data tab. Here you will find the Bulk upload data tab. Drop the zip file here. Once you see a green tick next to your file, your data has been successfully uploaded to the correct form.
-
-
 
 
 ## FAQs around bulk upload 
 We've answered some of the questions we've heard most often below.
 
-If I copy over the entire folder, will I not get duplicated data once I upload? 
+### If I copy over the entire folder, will I not get duplicated data once I upload? 
 Once you hit publish, all the data that you have on your device is copied over to the published folder. Thus it holds data captured offline and not submitted yet, already submitted and synced data you have on your device, and all the photos and videos submitted. But that is ok. At upload Flow will check to which form the submissions need to be saved to and if these submissions are already synced to the data set or not. So copy over the entire folder and let Flow do the heavy lifting. 
 
-
-
-What happens with the published folder after the 90 minutes? 
+### What happens with the published folder after the 90 minutes? 
 Once the 90 minutes are over, Flow automatically deletes the published folder from the list. Submissions are saved in the private folder that is not accessible. If you need to bulk upload your data again, hit to publish. All data on your Flow app, are then again copied over to the published folder and ready for bulk upload. 
 
 
-
-What happens to the published folder if I delete data from the app?
+### What happens to the published folder if I delete data from the app?
 When you delete data from the app, within the 90 minutes that it is available in the public folder for bulk upload, the data is also removed from the public folder. The Akvo Flow published folder will no longer appear in the folder structure.
 
 
-
-I published data and then made new submissions, are they also published?
+### I published data and then made new submissions, are they also published?
 No they are not.
 
 In order to bulk upload the data you have submitted after you published, you need to publish again. If your 90 minutes period is not over yet, you simply need to wait and then publish again. Once published, all your data will again be moved to the published folder and you can copy over the folder, zip in and upload to your Flow instance.
 
-
-
-If I save data (not submit) will it show in the published file?
+### If I save data (not submit) will it show in the published file?
 No it will not. The published folder only takes the submitted data, as it enables you to bulk upload the data to Flow. If you only have saved data on your Flow app, you will not be able to publish the data, until you complete the submissions.
-
-

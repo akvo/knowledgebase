@@ -10,7 +10,7 @@ The Flow online workspace is made up a series of pages. The first page you see a
 Surveys are the centrepiece of Flow. Create, edit and publish surveys from the Surveys tab. To read more on how to create surveys read [this](surveys.md) article.
 
 ## [Devices](devices.md) 
-In the Devices tab you manage the devices connected to capture data. To read more on how to manage folders read [this](folders.md) article.
+In the Devices tab you manage the devices connected to capture data. To read more on how to manage folders read [this](devices.md) article.
 
 ## [Data](data.md) 
 The Data tab is where you can view, edit, export, import and clean data collected with Flow surveys. To read more on how to manage your data read [this](data.md) article.

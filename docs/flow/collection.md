@@ -31,7 +31,7 @@ To download a specific form:
 ### Offline via Manual survey transfer
 Manual form transfer allows you to generate a file of a Flow form and put it on the Flow device using a USB cable. This can be useful in situations with low or no connectivity.
 
-On Flow's online space, once the form is published, you can generate a file holding the form. This file will be emailed to you. Once you download the file you can share it online, or offline with your data collectors to add to their devices. For more details on how to get the file, check this article.
+On Flow's online space, once the form is published, you can generate a file holding the form. This file will be emailed to you. Once you download the file you can share it online, or offline with your data collectors to add to their devices. For more details on how to get the file, check this [article](devices.md).
 
 To get the form file onto your device, follow these steps:  
 
