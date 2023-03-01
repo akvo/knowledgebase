@@ -92,9 +92,12 @@ There are three main types of results:
 
 **Indicator types:**Indicatorshelp us to measure progress on these various types of results. They are usually easy to determine for outputs (e.g. 9 training sessions), harder for outcomes (e.g. number of policy documents written) and hardest (or near to impossible) for impacts.
 
-**Indicator reporting periods:** You can indicate for which period you want to measure a specific indicator. Especially for longer projects this is helpful to track progress during the project. For example, you can set a target of 3 training sessions per year for a 3-year project. When you don’t add a period for an indicator, it is assumed that the indicator (and the target and actual values) applies to the full project period.
+**Indicator reporting periods:** You can indicate for which period you want to measure a specific indicator. Especially for longer projects this is helpful to track progress during the project. For example, you can set a target of 3 training sessions per year for a 3-year project. When you don’t add a period for an indicator, it is assumed that the indicator (and the target and actual values) applies to the full project period. 
 
 **Target Value:** Besides that you can set a target value (e.g. 9 training sessions) and later add the actual value (e.g. 8 training sessions took place). This gives you progress information against set targets for monitoring and evaluation purposes. Sometimes baseline values are used to measure against (e.g. average income level at project start).
+
+**Cumulative option:** You can select if indicators report a running total so that each reported actual includes the previously reported actual and adds any progress made since the last reporting period. When an indicator is set to *'cumulative'*, the value for the latest period will be carried over and used as base for the next period. For an indicator set as *'non-cumulative'*, the values of all periods are summed up as the end-value. 
+
 
 A full example:
 

@@ -173,3 +173,5 @@ poetry.toml
 
 # mkdocs files
 site/
+
+.vscode/
