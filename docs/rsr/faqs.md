@@ -93,3 +93,15 @@ Please get in touch with your contact person within Akvo to explore the possibil
 Akvo RSR was designed to show your project portfolio to the world and to boost transparency in the development aid sector. We encourage all of our partners to join us in this mission.
 
 However, sometimes there instances when a project involves working with highly sensitive data. In those instances you may want to have the project in RSR but only in private mode, which means it will only be visible and accessible to RSR users within your organisation. As of 2016, this is possible via the Project Editor.
+
+## What is cumulative reporting and how do I enable it?
+Also called to-date reporting is when you report the current value and not the accumulated value. The value reported as 'cumulative' is considered inclusive of the previous periods value and is reported as is.
+
+To enable cumulative reporting, you first need to set the **'cumulative'** flag for each indicator as needed.
+This can be done from the project editor.
+
+![Setting up thematic labels](media/cumulative_flag.png)
+
+Once that is done, as you update your indicator values the aggregation to the programme will check whether the indicator is cumulative or not.
+
+
