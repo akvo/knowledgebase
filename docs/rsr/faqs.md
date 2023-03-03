@@ -100,8 +100,6 @@ Also called to-date reporting is when you report the current value and not the a
 To enable cumulative reporting, you first need to set the **'cumulative'** flag for each indicator as needed.
 This can be done from the project editor.
 
-![Setting up thematic labels](media/cumulative_flag.png)
+![What is cumulative reporting and how do I enable it?](media/cumulative_flag.png)
 
 Once that is done, as you update your indicator values the aggregation to the programme will check whether the indicator is cumulative or not.
-
-
