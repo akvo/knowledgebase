@@ -13,12 +13,12 @@ var _support = _support || { 'ui': {}, 'user': {} };
         type: 'text',
         value: '',
         required: true,
-        placeholder: 'What is the name of your ogranization?',
+        placeholder: 'What is the name of your organization?',
       },
       'hub': {
         pos: 1674543042741,
         type: 'dropdown',
-        value: ['Europe','East-Africa','West-Africa','Asia','Americas','South-East Asia and Pacific'],
+        value: ['East-Africa','West-Africa','Europe','Asia','Americas','South-East Asia and Pacific'],
         required: true,
         placeholder: 'Which hub do you usually work with?',
         defaultValue: 'undefined',
@@ -56,5 +56,14 @@ var _support = _support || { 'ui': {}, 'user': {} };
         placeholder: 'What is the name of the folder and the survey?',
         dependantField: 'product',
         dependantOptions: ['FLOW'],
+      },
+      'project_id': {
+        pos: 1678178815747,
+        type: 'text',
+        value: '',
+        required: false,
+        placeholder: 'What is the project ID?',
+        dependantField: 'product',
+        dependantOptions: ['RSR'],
       }
   };

@@ -98,8 +98,17 @@ However, sometimes there instances when a project involves working with highly s
 Also called to-date reporting is when you report the current value and not the accumulated value. The value reported as 'cumulative' is considered inclusive of the previous periods value and is reported as is.
 
 To enable cumulative reporting, you first need to set the **'cumulative'** flag for each indicator as needed.
-This can be done from the project editor.
+
+This is done from the project editor on the results and indicators section. The different sections of the project editor has been discussed [here](project_editor.md)
 
 ![What is cumulative reporting and how do I enable it?](media/cumulative_flag.png)
 
 Once that is done, as you update your indicator values the aggregation to the programme will check whether the indicator is cumulative or not.
+
+To confirm this - check the results overview tab on your program page.
+
+![What is cumulative reporting and how do I enable it?](media/results_overview_tab_cumulative_1.png)
+
+You can confirm whether the aggregation job has run successfully by checking the icon next to the reported value.
+
+![What is cumulative reporting and how do I enable it?](media/results_overview_tab_cumulative_2.png)
