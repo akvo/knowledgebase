@@ -121,4 +121,4 @@ While for the non-cumulative the indicator is reported a a sum of all values.
 
 ![What is cumulative reporting and how do I enable it?](media/non_cumulative_indicator.png)
 
-**NB** Please note: For existing indicators,  on the project editor the *'cumulative'* flag is disabled if the indicator already has updates associated with it. 
+**Please note:** For existing indicators,  on the project editor the *'cumulative'* flag is disabled if the indicator already has updates associated with it. 
