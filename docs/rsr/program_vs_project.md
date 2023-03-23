@@ -9,7 +9,7 @@ A program can have multiple levels of projects (i.e. Level 1, Level 2, etc)  dep
 
 If a project is added to the program, the core/master results framework is automatically inherited. Additional indicators can be added per level (e.g. contributing and sub-contributing) but only core/master indicators, i.e. those indicators inherited from the program, are aggregated upward to the Program Overview. 
 
-Note: core/master indicators can also be removed at each level depending on individual projects objectives within a program.
+**NOTE:** core/master indicators can also be removed at each level depending on individual projects objectives within a program.
 
 Once a program has been established in RSR, a hierarchy is automatically established for the program. As new projects are added the program’s hierarchy is built out. This can be clearly seen from the ‘Hierarchy’ tab of the program. 
 

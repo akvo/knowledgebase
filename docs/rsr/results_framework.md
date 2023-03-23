@@ -27,9 +27,12 @@ When working with qualitative indicators you can select a pre-set thematic label
 Setting the labels available for your qualitative indicators is done via the RSR administration system and is done by Akvo staff. The account manager for your organisation can ensure the list of labels is entered prior to creating your results framework. 
 
 ![Setting up thematic labels](media/thematic_labels_1.png)
+
+Once the labels are set-up, they can be selected at the point of creating the results framework.
+
 ![Setting up thematic labels](media/thematic_labels_2.png)
 
-For more information on the qualitative indicators click here, or contact your account manager directly. 
+For more information on the qualitative indicators contact your account manager directly. 
 
 ## Disaggregating quantitative indicators
 **Please note:** In the RSR Project Editor the field label/term for **'disaggregation'** is **'Dimension'**. That is the terminology used by the IATI standard and therefore we have currently chosen to adopt this terminology in the Project Editor to simplify things for our partners using RSR for their IATI export. 
