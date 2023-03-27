@@ -33,7 +33,7 @@ In each RSR project you can link to multiple partners that are involved in your 
 
 
 ## How do I create a new project?
-RSR users with an Admin account for partners that have a contract with Akvo will see an *+ add a new project* button when they login to MyRSR and go to My Projects. Read the full article [here](project_editor.md).
+RSR users with an Admin account for partners that have a contract with Akvo will see an **+ add a new project** button when they login to MyRSR and go to My Projects. Read the full article [here](project_editor.md).
 
 If you do not see this button, please contact the administrator of your organisation.
 

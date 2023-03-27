@@ -23,4 +23,7 @@ Click through these slideshow guides to open them in a new window and learn each
 
 - [RSR Standard Reporting Guide](https://docs.google.com/presentation/d/e/2PACX-1vRRwyQ5pmhjmIt08vx-BF7wsworJzhrKlR3cAL1iJo3kST8Hr5Kz7sBnyzjQyxsTA/pub?start=false&loop=false&delayms=3000)
 
+- [RSR IATI Reporting Guide](https://docs.google.com/presentation/d/e/2PACX-1vR_MWkH3Ni0R2h-677XU7rxwwBe5PF2Nvfl6D1DvaZ48uJeztmaFw9GRU_FQpt5_Q/pub?start=false&loop=false&delayms=3000)
+
 - [RSR User Management Guide](https://docs.google.com/presentation/d/e/2PACX-1vRQVk2eqgI2YuZsSfcUpJhY0lMzCjZ2CCEdOEfrgwEcioxZt1nT9Mjq-D1SJfXU9Q/pub?start=false&loop=false&delayms=3000)
+

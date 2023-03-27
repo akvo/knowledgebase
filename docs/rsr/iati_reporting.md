@@ -2,9 +2,9 @@
 
 ### What is IATI?
 
-In short, the International Aid Transparency Initiative (IATI) is an international set of rules for publishing and sharing of information about development aid. To allow for automatic processing of data from various source, a common technical format is used called 'xml'. For more information see aidtransparency.net
+In short, the International Aid Transparency Initiative (IATI) is an international set of rules for publishing and sharing of information about development aid. To allow for automatic processing of data from various source, a common technical format is used called 'xml'. For more information see [aidtransparency.net](aidtransparency.net)
 
-Steps to create an IATI activity xml file in Akvo RSR
+### Steps to create an IATI activity xml file in Akvo RSR
 
 1. Add projects or update project data via the project editor and make sure you have one of the validations sets enabled which show the mandatory IATI fields (e.g. DGIS IATI or IATI)
 
@@ -29,7 +29,6 @@ Akvo RSR makes it extremely easy to add and regularly update your IATI files in 
 1. Set up our organisations' account by [registering as a new user](http://iatiregistry.org/user/register) and [follow the steps](http://iatiregistry.org/help) in the registry. When you do so, you need to use the standard IATI link that RSR provides. In the case of Akvo this is [http://rsr.akvo.org/organisation/42/iati/](http://rsr.akvo.org/organisation/42/iati/). You can find the link specific for your organisation's activity file on the [IATI page](https://rsr.akvo.org/my-rsr/iati). Using this link means that you can manage the IATI file updates in Akvo RSR without having to logon to the IATI registry. Note, that you cannot upload any data in the IATI registry, the link to the data suffices.
 
 2. To update the dataset, create a new IATI file as indicated above. Via the link you used in step 1, the data is automatically up-to-date in the IATI registry. This is because the link refers to latest data as hosted on Akvo RSR. 
-
 
 
 ### Checking your IATI data
@@ -58,11 +57,12 @@ For example the link for Akvo is: [https://rsr.akvo.org/organisation/42/iati-org
 To change or add data for your organisation, please contact the [Akvo RSR support desk](../contact.md).
 
 ## How can IATI data files be imported?
-How to import
-IATI files can be imported once or can be scheduled to be imported automatically at a regular interval. Please contact us to make use of this feature.
+
+IATI files can be imported once or can be scheduled to be imported automatically at a regular interval. Please [contact us](../contact.md) to make use of this feature.
 
 ### Field mapping
-The extensive overview of the field mapping from IATI to RSR can be found here.
+
+The extensive overview of the field mapping from IATI to RSR can be found [here](https://github.com/akvo/akvo-rsr/wiki/IATI-Import-mapping).
 
 ### Requirements
 The current implementation of the IATI import allows any IATI file to be imported into Akvo RSR, just as long as the following requirements are met:
