@@ -611,3 +611,15 @@ In order to bulk upload the data you have submitted after you published, you nee
 
 ### If I save data (not submit) will it show in the published file?
 No it will not. The published folder only takes the submitted data, as it enables you to bulk upload the data to Flow. If you only have saved data on your Flow app, you will not be able to publish the data, until you complete the submissions.
+
+### How do I delete collected data?
+To delete the data collected from a device where the device id or submitter name is known, please do the following;
+
+1. Login to your instance
+2. Find the data tab
+3. Select the inspect data sub-tab
+4. Navigate to the folder with the data to be deleted
+5. Provide the device id or submitter name in the relevant field
+6. Click on 'Find'
+7. The system will list datapoints associated with the device or submitter
+8. Click on 'Delete' for each data point as needed
