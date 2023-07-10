@@ -1,7 +1,6 @@
 The results framework helps your organisation keep track of your project's results, indicators, indicator periods and associated data belonging to a project. 
 
-To add a results framework for your project, you can: 
-
+To add a results framework for your project, you can:
 1. create a results framework from scratch;
 2. copy a results framework from another project in your organisation;
 3. automatically inherit a results framework from the core project of the program.
@@ -41,9 +40,9 @@ In other words the terms **'disaggregation'** and **'dimension'** in RSR are int
 
 _________________________________________________________________________________
 
-Adding disaggregations to quantitative indicators is done via the Results and Indicators section of Project Editor and can be done at the same time that you're adding new indicators to your results framework. 
+Adding disaggregations to quantitative indicators is done via the Results and Indicators section of Project Editor and can be done at the same time that you're adding new indicators to your results framework.
 
-After you've added your new indicators, scroll down a bit and simply click **'+ Add disaggregation'**. 
+After you've added your new indicators, scroll down a bit and simply click **'+ Add disaggregation'**.
 
 You can add multiple disaggregation categories (e.g. age and gender) to an indicator depending the level of disaggregation required to accurately measure an indicator. You can also add multiple labels (e.g. 1-8yrs, 9yrs - 17yrs, 18 - 24yrs) to a disaggregation. 
 
