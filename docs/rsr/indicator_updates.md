@@ -23,7 +23,7 @@ The **‘Pending Approval’** tab is where M&E managers can see which indicator
 
 ![Pending Approval](media/pending_approval.png)
 
-However, when you would like the Project Officer to have a second look at the results they reported, you click **"Decline"**. This sends the update back to the Project Officer, and it will once again (re)appear in the **‘To Be Reported’** tab for them. The status is also marked as ***Declined**
+However, when you would like the Project Officer to have a second look at the results they reported, you click **"Decline"**. This sends the update back to the Project Officer, and it will once again (re)appear in the **‘To Be Reported’** tab for them. The status is also marked as ***Declined**.
 
 ![Pending Approval](media/update_declined.png)
 
