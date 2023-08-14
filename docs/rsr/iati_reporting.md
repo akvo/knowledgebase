@@ -6,17 +6,17 @@ In short, the International Aid Transparency Initiative (IATI) is an internation
 
 ### Steps to create an IATI activity xml file in Akvo RSR
 
-1. Add projects or update project data via the project editor and make sure you have one of the validations sets enabled which show the mandatory IATI fields (e.g. DGIS IATI or IATI)
+- Add projects or update project data via the project editor and make sure you have one of the validations sets enabled which show the mandatory IATI fields (e.g. DGIS IATI or IATI)
 
-2. In section 5., Results and Indicators, you can select which specific indicators you want to include in your export:
+- In section 5., Results and Indicators, you can select which specific indicators you want to include in your export:
 
 ![What is IATI](media/create_iati.png)
 
-3. Click on the IATI link (top, left-side of the page) in My Projects and press: *'New IATI export'*. It is important to agree in your organisation who is responsible for creating and publishing (see below) these files:
+- Click on the IATI link (top, left-side of the page) in My Projects and press: **'New IATI export'**. It is important to agree in your organisation who is responsible for creating and publishing (see below) these files:
 
-4. Select the projects you want to include and press perform checks. In case there are errors, please edit the projects in the project editor. Links are provided to guide you to the correct fields. If everything is set you can generate the IATI xml file and it will be visible in the export overview
+- Select the projects you want to include and press perform checks. In case there are errors, please edit the projects in the project editor. Links are provided to guide you to the correct fields. If everything is set you can generate the IATI xml file and it will be visible in the export overview
 
-5.  If there is a need to export smaller datasets, RSR provides additional filters to allow  selection a smaller number of projects. The additional filters provided are: a) project status  b) date filters based on the actual project start and end dates. 
+- If your organization has multiple projects and there is a need to export smaller datasets, RSR provides additional filters to enable the selection a smaller number of projects. The additional filters provided are: a) project status  b) date filters based on the actual project start and end dates. 
 
 ![What is IATI](media/iati_export.png)
 
