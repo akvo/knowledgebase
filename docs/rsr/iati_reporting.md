@@ -16,6 +16,8 @@ In short, the International Aid Transparency Initiative (IATI) is an internation
 
 4. Select the projects you want to include and press perform checks. In case there are errors, please edit the projects in the project editor. Links are provided to guide you to the correct fields. If everything is set you can generate the IATI xml file and it will be visible in the export overview
 
+5.  If there is a need to export smaller datasets, RSR provides additional filters to allow  selection a smaller number of projects. The additional filters provided are: a) project status  b) date filters based on the actual project start and end dates. 
+
 ![What is IATI](media/iati_export.png)
 
 ### IATI export overview
