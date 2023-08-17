@@ -139,7 +139,7 @@ Similarly, programmes with many partners (e.g. large programmes) can mean that t
 **Step 7:** You can also see which users have access to a project directly from the ‘My Projects’ page. 
 
 ## Password policy
-In RSR it is now possible to set a password policy for your organization. A password policy is a set of rules that dictate the requirements for creating and using passwords by users. The purpose of a password policy is to enhance the security of user accounts and sensitive data by encouraging users to create strong and unique passwords. The password password policy on RSR allows us to define:
+In RSR it is now possible to set a password policy for your organization. A password policy is a set of rules that dictate the requirements for creating and using passwords by users. The purpose of a password policy is to enhance the security of user accounts and sensitive data by encouraging users to create strong and unique passwords. The password policy on RSR allows us to define:
 
 - **Password Length:** The minimum and maximum number of characters a password must have to be considered valid.
 
