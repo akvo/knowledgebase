@@ -159,8 +159,11 @@ On RSR you can set passwords to expire after a certain number of days between 1 
 ![Managing users](media/password_expired.png)
 
 To set a new password the user is expected to provide:
+
 - their old password
+
 - a new password
+
 - confirm the new password: enter the new password twice to avoid typographical errors.
 
 Upon successful submission of the new password and update the user's password, the user is redirected to the **'My RSR'** page
