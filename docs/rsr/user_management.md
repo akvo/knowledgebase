@@ -141,26 +141,28 @@ Similarly, programmes with many partners (e.g. large programmes) can mean that t
 ## Password policy
 In RSR it is now possible to set a password policy for your organization. A password policy is a set of rules that dictate the requirements for creating and using passwords by users. The purpose of a password policy is to enhance the security of user accounts and sensitive data by encouraging users to create strong and unique passwords. The password password policy on RSR allows us to define:
 
-- Password Length: The minimum and maximum number of characters a password must have to be considered valid.
+- **Password Length:** The minimum and maximum number of characters a password must have to be considered valid.
 
-- Complexity Requirements: Guidelines about including a mix of different character types, such as uppercase and lowercase letters, numbers, and special symbols.
+- **Complexity Requirements:** Guidelines about including a mix of different character types, such as uppercase and lowercase letters, numbers, and special symbols.
 
-- Password Expiration: The time interval after which a user is required to change their password. This prevents the prolonged use of the same password.
+- **Password Expiration:** The time interval after which a user is required to change their password. This prevents the prolonged use of the same password.
 
-- Password History: Ensures that users cannot reuse a certain number of previous passwords, preventing them from cycling through a limited set of passwords.
+- **Password History:** Ensures that users cannot reuse a certain number of previous passwords, preventing them from cycling through a limited set of passwords.
 
 If you wish to use this feature, please get in touch and we shall enable it for your organization.
 
-## Password expiration
-Password expiry is a security measure designed to enhance the protection of your account. Regularly updating your password helps safeguard your personal information and sensitive data from potential breaches. When enabled, users will be required to change their passwords after a period specified on the password policy, ensuring that unauthorized access is minimized. 
+### Password expiration
+Password expiry is a security measure designed to enhance the protection of your account. Regularly updating your password helps safeguard your information and sensitive data from potential breaches. When enabled, users will be required to change their passwords after a period specified on the password policy, ensuring that unauthorized access is minimized. 
 
-On RSR you can set passwords to expire after a certain number of days between 1 and 999 or you can specify that passwords never expire by setting the number of days to 0. Once the time elapses and a user attempts to login when their password has expired they are redirected to the password setting page.
+On RSR you can set passwords to expire after a certain number of days between 1 and 999 or you can specify that passwords never expire by setting the number of days to 0. Once the time elapses and a user attempts to login they will be redirected to the password setting page.
 
 ![Managing users](media/password_expired.png)
 
-The user is expected to provide:
+To set a new password the user is expected to provide:
 - their old password
 - a new password
-- confirm the new password
+- confirm the new password: enter the new password twice to avoid typographical errors.
 
-Please note that the password should meet the criteria as defined in your organizations policy
+Upon successful submission of the new password and update the user's password, the user is redirected to the **'My RSR'** page
+
+**Please note** that the password should meet the criteria as defined in your organizations policy
