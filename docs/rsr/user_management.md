@@ -1,7 +1,7 @@
 ## Request to join an organisation
 
 ## Registering as a user on RSR
-Log into [http://rsr.akvo.org/en/register/](http://rsr.akvo.org/en/register/) and complete the details as shown below
+Go to the [registration page](http://rsr.akvo.org/en/register/) and complete the details as shown below
 
 ![Request to join an organisation](media/registration.png)
 
@@ -43,10 +43,6 @@ The Admin will see the new user requests lined up and can approve requests based
 To approve a request, select the appropriate role and press the green tick. To delete a request, press the red cross mark. Once completed, the specific user receives an email notifying that their request has been accepted.
 ## User roles and permissions
 The following roles are supported within RSR. Adding RSR updates, adding or editing projects and approving users apply to all projects/users linked to your organisation.*The creator of a Project Update can edit or delete their update. 
-
-
-
-
 
 
 A person can have multiple roles. Akvo staff, user managers and admins can invite an existing user to add a new role. How you do this, can be read here.
@@ -141,3 +137,30 @@ Similarly, programmes with many partners (e.g. large programmes) can mean that t
 
 
 **Step 7:** You can also see which users have access to a project directly from the ‘My Projects’ page. 
+
+## Password policy
+In RSR it is now possible to set a password policy for your organization. A password policy is a set of rules that dictate the requirements for creating and using passwords by users. The purpose of a password policy is to enhance the security of user accounts and sensitive data by encouraging users to create strong and unique passwords. The password password policy on RSR allows us to define:
+
+- Password Length: The minimum and maximum number of characters a password must have to be considered valid.
+
+- Complexity Requirements: Guidelines about including a mix of different character types, such as uppercase and lowercase letters, numbers, and special symbols.
+
+- Password Expiration: The time interval after which a user is required to change their password. This prevents the prolonged use of the same password.
+
+- Password History: Ensures that users cannot reuse a certain number of previous passwords, preventing them from cycling through a limited set of passwords.
+
+If you wish to use this feature, please get in touch and we shall enable it for your organization.
+
+## Password expiration
+Password expiry is a security measure designed to enhance the protection of your account. Regularly updating your password helps safeguard your personal information and sensitive data from potential breaches. When enabled, users will be required to change their passwords after a period specified on the password policy, ensuring that unauthorized access is minimized. 
+
+On RSR you can set passwords to expire after a certain number of days between 1 and 999 or you can specify that passwords never expire by setting the number of days to 0. Once the time elapses and a user attempts to login when their password has expired they are redirected to the password setting page.
+
+![Managing users](media/password_expired.png)
+
+The user is expected to provide:
+- their old password
+- a new password
+- confirm the new password
+
+Please note that the password should meet the criteria as defined in your organizations policy

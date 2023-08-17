@@ -77,3 +77,4 @@ Confirm that you want to disable two-factor authentication by selecting the **Ye
 ![Disabling two-factor authentication](media/confirm_disable_2fa.png)
 
 Your account should now stop using two-factor authentication
+
