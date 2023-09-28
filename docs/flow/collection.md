@@ -345,7 +345,7 @@ You can capture data using the Flow app online of offline. There is no differenc
 To make sure the data gets uploaded to Flow's database, when you can then see the data on Flow's online space or export the data, you can do two things: 
 
 1. **Connecting to a network**. One option is to connect your device to the network what will trigger the submitted points to start uploading. 
-2. **Offline upload**. You can get your data out of the device and to a PC fully offline. Then you can upload the data file to your online workspace using the bulk upload tab (this step requires connection as the online workspace does not work offline.) For more details on how to bulk upload data checking these [articles](faqs.md). 
+2. **Offline upload**. You can get your data out of the device and to a PC fully offline. Then you can upload the data file to your online workspace using the bulk upload tab (this step requires connection as the online workspace does not work offline.) For more details on how to bulk upload data [check these articles](faqs.md#bulk-upload). 
 
 ## Offline maps
 If you're going where the Internet is slow, mobile data is expensive, or you can't get online, you can save the area with Flow's Offline map to your phone or tablet and use the map when you are offline. With Flow 2.8.0 (and newer versions) you can not only capture data offline, but also view the location of your data points offline using our newest feature, Offline maps. 

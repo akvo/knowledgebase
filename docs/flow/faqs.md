@@ -518,7 +518,7 @@ With Akvo Flow app you can collect data fully offline. When in the field you sub
 
 
 
-Bulk uploading data
+## Bulk uploading data
 Have you collected data offline with Flow app version 2.4.8 or older and you want to bulk upload it to your Flow instance? Here are the steps you need to do to bulk upload your data:
 
 
@@ -549,7 +549,7 @@ Open your Flow instance and go to the Data tab. Here you will find the Bulk uplo
 Please note the on your Flow instance you will see instructions in the Bulk upload data tab on how to prepare and upload data collected offline. These instructions are only for user uploading data from Flow app version 2.5.0 and newer. We highly recommend to update your Flow app to the latest available version. 
 
 
-## How to bulk upload data collected with Flow app 2.5.0 and newer?
+## <a name="bulk-upload"></a> How to bulk upload data collected with Flow app 2.5.0 and newer?
 With Akvo Flow app you can collect data fully offline. When in the field you submit the data, that remains in the submitted state, on your device. But how do you then get it to Flow to be added to your data set? Either you connect to the Internet and the submissions sync automatically, or you bulk upload the data.
 
 With the 2.5.0 version of the app we improved how we store data on your device to a secure private folder. With the 2.5.0 version of the Flow app, we now store your data in a private folder not accessible by connecting your device to a computer or browsing the files via the My files app on your Android device. Furthermore, if you delete data from your Flow app or uninstall the app, all the data will also be removed from your device. (To read more on where we store your data, check this article.)
@@ -558,7 +558,7 @@ This change affects how you bulk upload data. In this article we first share wit
 
 
 
-### Bulk uploading data
+## Bulk uploading data
 Have you collected data offline and you want to bulk upload it to your Flow instance? Here are the steps you need to do to bulk upload your data:
 
 
